@@ -2,7 +2,7 @@
 
 # Rubocop Linter Action
 
-![version number](https://img.shields.io/static/v1?label=Version&message=v0.1.1&color=blue)
+![version number](https://img.shields.io/static/v1?label=Version&message=v0.1.2&color=blue)
 
 GitHub Action to run Rubocop against your code.
 
