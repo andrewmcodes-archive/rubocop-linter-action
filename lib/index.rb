@@ -123,8 +123,6 @@ def run
     output = results["output"]
 
     update_check(id, conclusion, output)
-
-    fail if conclusion == "failure"
   rescue
     update_check(id, "failure", nil)
     fail
