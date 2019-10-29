@@ -1,0 +1,3301 @@
+{
+  "metadata": {
+    "rubocop_version": "0.75.1",
+    "ruby_engine": "ruby",
+    "ruby_version": "2.6.3",
+    "ruby_patchlevel": "62",
+    "ruby_platform": "x86_64-linux"
+  },
+  "files": [
+    {
+      "path": "Gemfile",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [83/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 50,
+            "start_column": 81,
+            "last_line": 50,
+            "last_column": 83,
+            "length": 3,
+            "line": 50,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Use `%i` or `%I` for an array of symbols.",
+          "cop_name": "Style/SymbolArray",
+          "corrected": false,
+          "location": {
+            "start_line": 51,
+            "start_column": 28,
+            "last_line": 51,
+            "last_column": 53,
+            "length": 26,
+            "line": 51,
+            "column": 28
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [98/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 55,
+            "start_column": 81,
+            "last_line": 55,
+            "last_column": 98,
+            "length": 18,
+            "line": 55,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Gems should be sorted in an alphabetical order within their section of the Gemfile. Gem `listen` should appear before `web-console`.",
+          "cop_name": "Bundler/OrderedGems",
+          "corrected": false,
+          "location": {
+            "start_line": 57,
+            "start_column": 3,
+            "last_line": 57,
+            "last_column": 35,
+            "length": 33,
+            "line": 57,
+            "column": 3
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [130/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 58,
+            "start_column": 81,
+            "last_line": 58,
+            "last_column": 130,
+            "length": 50,
+            "line": 58,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Use `%i` or `%I` for an array of symbols.",
+          "cop_name": "Style/SymbolArray",
+          "corrected": false,
+          "location": {
+            "start_line": 72,
+            "start_column": 31,
+            "last_line": 72,
+            "last_column": 66,
+            "length": 36,
+            "line": 72,
+            "column": 31
+          }
+        }
+      ]
+    },
+    {
+      "path": "Rakefile",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [90/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 2,
+            "start_column": 81,
+            "last_line": 2,
+            "last_column": 90,
+            "length": 10,
+            "line": 2,
+            "column": 81
+          }
+        }
+      ]
+    },
+    {
+      "path": "app/channels/application_cable/channel.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "app/channels/application_cable/connection.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "app/controllers/application_controller.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing top-level class documentation comment.",
+          "cop_name": "Style/Documentation",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 5,
+            "length": 5,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "app/controllers/posts_controller.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing top-level class documentation comment.",
+          "cop_name": "Style/Documentation",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 5,
+            "length": 5,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Use `%i` or `%I` for an array of symbols.",
+          "cop_name": "Style/SymbolArray",
+          "corrected": false,
+          "location": {
+            "start_line": 2,
+            "start_column": 34,
+            "last_line": 2,
+            "last_column": 66,
+            "length": 33,
+            "line": 2,
+            "column": 34
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Put empty method definitions on a single line.",
+          "cop_name": "Style/EmptyMethod",
+          "corrected": false,
+          "location": {
+            "start_line": 12,
+            "start_column": 3,
+            "last_line": 13,
+            "last_column": 5,
+            "length": 14,
+            "line": 12,
+            "column": 3
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Put empty method definitions on a single line.",
+          "cop_name": "Style/EmptyMethod",
+          "corrected": false,
+          "location": {
+            "start_line": 21,
+            "start_column": 3,
+            "last_line": 22,
+            "last_column": 5,
+            "length": 14,
+            "line": 21,
+            "column": 3
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [83/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 31,
+            "start_column": 81,
+            "last_line": 31,
+            "last_column": 83,
+            "length": 3,
+            "line": 31,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [83/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 45,
+            "start_column": 81,
+            "last_line": 45,
+            "last_column": 83,
+            "length": 3,
+            "line": 45,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [87/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 59,
+            "start_column": 81,
+            "last_line": 59,
+            "last_column": 87,
+            "length": 7,
+            "line": 59,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Keep a blank line before and after `private`.",
+          "cop_name": "Layout/EmptyLinesAroundAccessModifier",
+          "corrected": false,
+          "location": {
+            "start_line": 64,
+            "start_column": 3,
+            "last_line": 64,
+            "last_column": 9,
+            "length": 7,
+            "line": 64,
+            "column": 3
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Use 2 (not 4) spaces for indentation.",
+          "cop_name": "Layout/IndentationWidth",
+          "corrected": false,
+          "location": {
+            "start_line": 66,
+            "start_column": 1,
+            "last_line": 66,
+            "last_column": 4,
+            "length": 4,
+            "line": 66,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Inconsistent indentation detected.",
+          "cop_name": "Layout/IndentationConsistency",
+          "corrected": false,
+          "location": {
+            "start_line": 66,
+            "start_column": 5,
+            "last_line": 68,
+            "last_column": 7,
+            "length": 57,
+            "line": 66,
+            "column": 5
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [88/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 70,
+            "start_column": 81,
+            "last_line": 70,
+            "last_column": 88,
+            "length": 8,
+            "line": 70,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Use 2 (not 4) spaces for indentation.",
+          "cop_name": "Layout/IndentationWidth",
+          "corrected": false,
+          "location": {
+            "start_line": 71,
+            "start_column": 1,
+            "last_line": 71,
+            "last_column": 4,
+            "length": 4,
+            "line": 71,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Inconsistent indentation detected.",
+          "cop_name": "Layout/IndentationConsistency",
+          "corrected": false,
+          "location": {
+            "start_line": 71,
+            "start_column": 5,
+            "last_line": 73,
+            "last_column": 7,
+            "length": 73,
+            "line": 71,
+            "column": 5
+          }
+        }
+      ]
+    },
+    {
+      "path": "app/helpers/application_helper.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing top-level module documentation comment.",
+          "cop_name": "Style/Documentation",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 6,
+            "length": 6,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "app/helpers/posts_helper.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing top-level module documentation comment.",
+          "cop_name": "Style/Documentation",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 6,
+            "length": 6,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "app/jobs/application_job.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing top-level class documentation comment.",
+          "cop_name": "Style/Documentation",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 5,
+            "length": 5,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "app/jobs/post_count_word_job.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing top-level class documentation comment.",
+          "cop_name": "Style/Documentation",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 5,
+            "length": 5,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "app/mailers/application_mailer.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing top-level class documentation comment.",
+          "cop_name": "Style/Documentation",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 5,
+            "length": 5,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "app/models/application_record.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing top-level class documentation comment.",
+          "cop_name": "Style/Documentation",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 5,
+            "length": 5,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "app/models/post.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing top-level class documentation comment.",
+          "cop_name": "Style/Documentation",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 5,
+            "length": 5,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Redundant `self` detected.",
+          "cop_name": "Style/RedundantSelf",
+          "corrected": false,
+          "location": {
+            "start_line": 3,
+            "start_column": 36,
+            "last_line": 3,
+            "last_column": 42,
+            "length": 7,
+            "line": 3,
+            "column": 36
+          }
+        }
+      ]
+    },
+    {
+      "path": "app/views/posts/_post.json.jbuilder",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "app/views/posts/index.json.jbuilder",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "app/views/posts/show.json.jbuilder",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 15,
+            "last_line": 1,
+            "last_column": 26,
+            "length": 12,
+            "line": 1,
+            "column": 15
+          }
+        }
+      ]
+    },
+    {
+      "path": "bin/bundle",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "bin/rails",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Use `expand_path('spring', __dir__)` instead of `expand_path('../spring', __FILE__)`.",
+          "cop_name": "Style/ExpandPathArguments",
+          "corrected": false,
+          "location": {
+            "start_line": 3,
+            "start_column": 13,
+            "last_line": 3,
+            "last_column": 23,
+            "length": 11,
+            "line": 3,
+            "column": 13
+          }
+        }
+      ]
+    },
+    {
+      "path": "bin/rake",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Use `expand_path('spring', __dir__)` instead of `expand_path('../spring', __FILE__)`.",
+          "cop_name": "Style/ExpandPathArguments",
+          "corrected": false,
+          "location": {
+            "start_line": 3,
+            "start_column": 13,
+            "last_line": 3,
+            "last_column": 23,
+            "length": 11,
+            "line": 3,
+            "column": 13
+          }
+        }
+      ]
+    },
+    {
+      "path": "bin/setup",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "`include` is used at the top level. Use inside `class` or `module`.",
+          "cop_name": "Style/MixinUsage",
+          "corrected": false,
+          "location": {
+            "start_line": 3,
+            "start_column": 1,
+            "last_line": 3,
+            "last_column": 17,
+            "length": 17,
+            "line": 3,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "bin/spring",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 11,
+            "start_column": 56,
+            "last_line": 11,
+            "last_column": 63,
+            "length": 8,
+            "line": 11,
+            "column": 56
+          }
+        }
+      ]
+    },
+    {
+      "path": "bin/update",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "`include` is used at the top level. Use inside `class` or `module`.",
+          "cop_name": "Style/MixinUsage",
+          "corrected": false,
+          "location": {
+            "start_line": 3,
+            "start_column": 1,
+            "last_line": 3,
+            "last_column": 17,
+            "length": 17,
+            "line": 3,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "bin/webpack",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 3,
+            "start_column": 5,
+            "last_line": 3,
+            "last_column": 15,
+            "length": 11,
+            "line": 3,
+            "column": 5
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 3,
+            "start_column": 26,
+            "last_line": 3,
+            "last_column": 35,
+            "length": 10,
+            "line": 3,
+            "column": 26
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 3,
+            "start_column": 41,
+            "last_line": 3,
+            "last_column": 53,
+            "length": 13,
+            "line": 3,
+            "column": 41
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 4,
+            "start_column": 5,
+            "last_line": 4,
+            "last_column": 14,
+            "length": 10,
+            "line": 4,
+            "column": 5
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 4,
+            "start_column": 22,
+            "last_line": 4,
+            "last_column": 34,
+            "length": 13,
+            "line": 4,
+            "column": 22
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 6,
+            "start_column": 9,
+            "last_line": 6,
+            "last_column": 18,
+            "length": 10,
+            "line": 6,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 7,
+            "start_column": 5,
+            "last_line": 7,
+            "last_column": 20,
+            "length": 16,
+            "line": 7,
+            "column": 5
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 7,
+            "start_column": 44,
+            "last_line": 7,
+            "last_column": 58,
+            "length": 15,
+            "line": 7,
+            "column": 44
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Align the arguments of a method call if they span more than one line.",
+          "cop_name": "Layout/AlignArguments",
+          "corrected": false,
+          "location": {
+            "start_line": 8,
+            "start_column": 3,
+            "last_line": 8,
+            "last_column": 33,
+            "length": 31,
+            "line": 8,
+            "column": 3
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 10,
+            "start_column": 9,
+            "last_line": 10,
+            "last_column": 18,
+            "length": 10,
+            "line": 10,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 11,
+            "start_column": 9,
+            "last_line": 11,
+            "last_column": 23,
+            "length": 15,
+            "line": 11,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 13,
+            "start_column": 9,
+            "last_line": 13,
+            "last_column": 19,
+            "length": 11,
+            "line": 13,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 14,
+            "start_column": 9,
+            "last_line": 14,
+            "last_column": 34,
+            "length": 26,
+            "line": 14,
+            "column": 9
+          }
+        }
+      ]
+    },
+    {
+      "path": "bin/webpack-dev-server",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 3,
+            "start_column": 5,
+            "last_line": 3,
+            "last_column": 15,
+            "length": 11,
+            "line": 3,
+            "column": 5
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 3,
+            "start_column": 26,
+            "last_line": 3,
+            "last_column": 35,
+            "length": 10,
+            "line": 3,
+            "column": 26
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 3,
+            "start_column": 41,
+            "last_line": 3,
+            "last_column": 53,
+            "length": 13,
+            "line": 3,
+            "column": 41
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 4,
+            "start_column": 5,
+            "last_line": 4,
+            "last_column": 14,
+            "length": 10,
+            "line": 4,
+            "column": 5
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 4,
+            "start_column": 22,
+            "last_line": 4,
+            "last_column": 34,
+            "length": 13,
+            "line": 4,
+            "column": 22
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 6,
+            "start_column": 9,
+            "last_line": 6,
+            "last_column": 18,
+            "length": 10,
+            "line": 6,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 7,
+            "start_column": 5,
+            "last_line": 7,
+            "last_column": 20,
+            "length": 16,
+            "line": 7,
+            "column": 5
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 7,
+            "start_column": 44,
+            "last_line": 7,
+            "last_column": 58,
+            "length": 15,
+            "line": 7,
+            "column": 44
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Align the arguments of a method call if they span more than one line.",
+          "cop_name": "Layout/AlignArguments",
+          "corrected": false,
+          "location": {
+            "start_line": 8,
+            "start_column": 3,
+            "last_line": 8,
+            "last_column": 33,
+            "length": 31,
+            "line": 8,
+            "column": 3
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 10,
+            "start_column": 9,
+            "last_line": 10,
+            "last_column": 18,
+            "length": 10,
+            "line": 10,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 11,
+            "start_column": 9,
+            "last_line": 11,
+            "last_column": 23,
+            "length": 15,
+            "line": 11,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 13,
+            "start_column": 9,
+            "last_line": 13,
+            "last_column": 19,
+            "length": 11,
+            "line": 13,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 14,
+            "start_column": 9,
+            "last_line": 14,
+            "last_column": 37,
+            "length": 29,
+            "line": 14,
+            "column": 9
+          }
+        }
+      ]
+    },
+    {
+      "path": "bin/yarn",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Redundant `begin` block detected.",
+          "cop_name": "Style/RedundantBegin",
+          "corrected": false,
+          "location": {
+            "start_line": 4,
+            "start_column": 3,
+            "last_line": 4,
+            "last_column": 7,
+            "length": 5,
+            "line": 4,
+            "column": 3
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 5,
+            "start_column": 10,
+            "last_line": 5,
+            "last_column": 18,
+            "length": 9,
+            "line": 5,
+            "column": 10
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Use `warn` instead of `$stderr.puts` to allow such output to be disabled.",
+          "cop_name": "Style/StderrPuts",
+          "corrected": false,
+          "location": {
+            "start_line": 7,
+            "start_column": 5,
+            "last_line": 7,
+            "last_column": 16,
+            "length": 12,
+            "line": 7,
+            "column": 5
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 7,
+            "start_column": 18,
+            "last_line": 7,
+            "last_column": 66,
+            "length": 49,
+            "line": 7,
+            "column": 18
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Use `warn` instead of `$stderr.puts` to allow such output to be disabled.",
+          "cop_name": "Style/StderrPuts",
+          "corrected": false,
+          "location": {
+            "start_line": 8,
+            "start_column": 5,
+            "last_line": 8,
+            "last_column": 16,
+            "length": 12,
+            "line": 8,
+            "column": 5
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 8,
+            "start_column": 18,
+            "last_line": 8,
+            "last_column": 71,
+            "length": 54,
+            "line": 8,
+            "column": 18
+          }
+        }
+      ]
+    },
+    {
+      "path": "config.ru",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "config/application.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Missing top-level class documentation comment.",
+          "cop_name": "Style/Documentation",
+          "corrected": false,
+          "location": {
+            "start_line": 10,
+            "start_column": 3,
+            "last_line": 10,
+            "last_column": 7,
+            "length": 5,
+            "line": 10,
+            "column": 3
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [82/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 14,
+            "start_column": 81,
+            "last_line": 14,
+            "last_column": 82,
+            "length": 2,
+            "line": 14,
+            "column": 81
+          }
+        }
+      ]
+    },
+    {
+      "path": "config/boot.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "config/environment.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "config/environments/development.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [97/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 2,
+            "start_column": 81,
+            "last_line": 2,
+            "last_column": 97,
+            "length": 17,
+            "line": 2,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [85/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 4,
+            "start_column": 81,
+            "last_line": 4,
+            "last_column": 85,
+            "length": 5,
+            "line": 4,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [86/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 32,
+            "start_column": 81,
+            "last_line": 32,
+            "last_column": 86,
+            "length": 6,
+            "line": 32,
+            "column": 81
+          }
+        }
+      ]
+    },
+    {
+      "path": "config/environments/production.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [97/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 2,
+            "start_column": 81,
+            "last_line": 2,
+            "last_column": 97,
+            "length": 17,
+            "line": 2,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [85/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 4,
+            "start_column": 81,
+            "last_line": 4,
+            "last_column": 85,
+            "length": 5,
+            "line": 4,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [87/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 19,
+            "start_column": 81,
+            "last_line": 19,
+            "last_column": 87,
+            "length": 7,
+            "line": 19,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [97/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 20,
+            "start_column": 81,
+            "last_line": 20,
+            "last_column": 97,
+            "length": 17,
+            "line": 20,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [102/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 34,
+            "start_column": 81,
+            "last_line": 34,
+            "last_column": 102,
+            "length": 22,
+            "line": 34,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [86/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 43,
+            "start_column": 81,
+            "last_line": 43,
+            "last_column": 86,
+            "length": 6,
+            "line": 43,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [96/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 49,
+            "start_column": 81,
+            "last_line": 49,
+            "last_column": 96,
+            "length": 16,
+            "line": 49,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [96/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 51,
+            "start_column": 81,
+            "last_line": 51,
+            "last_column": 96,
+            "length": 16,
+            "line": 51,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Do not use space inside array brackets.",
+          "cop_name": "Layout/SpaceInsideArrayLiteralBrackets",
+          "corrected": false,
+          "location": {
+            "start_line": 59,
+            "start_column": 22,
+            "last_line": 59,
+            "last_column": 22,
+            "length": 1,
+            "line": 59,
+            "column": 22
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Do not use space inside array brackets.",
+          "cop_name": "Layout/SpaceInsideArrayLiteralBrackets",
+          "corrected": false,
+          "location": {
+            "start_line": 59,
+            "start_column": 34,
+            "last_line": 59,
+            "last_column": 34,
+            "length": 1,
+            "line": 59,
+            "column": 34
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [83/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 64,
+            "start_column": 81,
+            "last_line": 64,
+            "last_column": 83,
+            "length": 3,
+            "line": 64,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [100/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 71,
+            "start_column": 81,
+            "last_line": 71,
+            "last_column": 100,
+            "length": 20,
+            "line": 71,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [83/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 86,
+            "start_column": 81,
+            "last_line": 86,
+            "last_column": 83,
+            "length": 3,
+            "line": 86,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 88,
+            "start_column": 10,
+            "last_line": 88,
+            "last_column": 30,
+            "length": 21,
+            "line": 88,
+            "column": 10
+          }
+        }
+      ]
+    },
+    {
+      "path": "config/environments/test.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [85/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 2,
+            "start_column": 81,
+            "last_line": 2,
+            "last_column": 85,
+            "length": 5,
+            "line": 2,
+            "column": 81
+          }
+        }
+      ]
+    },
+    {
+      "path": "config/initializers/application_controller_renderer.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "config/initializers/assets.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "config/initializers/backtrace_silencers.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [107/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 3,
+            "start_column": 81,
+            "last_line": 3,
+            "last_column": 107,
+            "length": 27,
+            "line": 3,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [112/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 6,
+            "start_column": 81,
+            "last_line": 6,
+            "last_column": 112,
+            "length": 32,
+            "line": 6,
+            "column": 81
+          }
+        }
+      ]
+    },
+    {
+      "path": "config/initializers/content_security_policy.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [107/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 20,
+            "start_column": 81,
+            "last_line": 20,
+            "last_column": 107,
+            "length": 27,
+            "line": 20,
+            "column": 81
+          }
+        }
+      ]
+    },
+    {
+      "path": "config/initializers/cookies_serializer.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "config/initializers/filter_parameter_logging.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "config/initializers/inflections.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "config/initializers/mime_types.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "config/initializers/wrap_parameters.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [96/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 6,
+            "start_column": 81,
+            "last_line": 6,
+            "last_column": 96,
+            "length": 16,
+            "line": 6,
+            "column": 81
+          }
+        }
+      ]
+    },
+    {
+      "path": "config/puma.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 7,
+            "start_column": 27,
+            "last_line": 7,
+            "last_column": 45,
+            "length": 19,
+            "line": 7,
+            "column": 27
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [85/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 10,
+            "start_column": 81,
+            "last_line": 10,
+            "last_column": 85,
+            "length": 5,
+            "line": 10,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 12,
+            "start_column": 23,
+            "last_line": 12,
+            "last_column": 28,
+            "length": 6,
+            "line": 12,
+            "column": 23
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 16,
+            "start_column": 23,
+            "last_line": 16,
+            "last_column": 33,
+            "length": 11,
+            "line": 16,
+            "column": 23
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 16,
+            "start_column": 38,
+            "last_line": 16,
+            "last_column": 50,
+            "length": 13,
+            "line": 16,
+            "column": 38
+          }
+        }
+      ]
+    },
+    {
+      "path": "config/routes.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 5,
+            "start_column": 8,
+            "last_line": 5,
+            "last_column": 20,
+            "length": 13,
+            "line": 5,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "path": "config/spring.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "db/migrate/20181227161008_create_posts.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing top-level class documentation comment.",
+          "cop_name": "Style/Documentation",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 5,
+            "length": 5,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "db/migrate/20181228000432_add_count_words_to_posts.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing top-level class documentation comment.",
+          "cop_name": "Style/Documentation",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 5,
+            "length": 5,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "db/schema.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [81/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 3,
+            "start_column": 81,
+            "last_line": 3,
+            "last_column": 81,
+            "length": 1,
+            "line": 3,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [86/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 8,
+            "start_column": 81,
+            "last_line": 8,
+            "last_column": 86,
+            "length": 6,
+            "line": 8,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [86/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 11,
+            "start_column": 81,
+            "last_line": 11,
+            "last_column": 86,
+            "length": 6,
+            "line": 11,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Use underscores(_) as thousands separator and separate every 3 digits with them.",
+          "cop_name": "Style/NumericLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 13,
+            "start_column": 38,
+            "last_line": 13,
+            "last_column": 54,
+            "length": 17,
+            "line": 13,
+            "column": 38
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Extra empty line detected at block body beginning.",
+          "cop_name": "Layout/EmptyLinesAroundBlockBody",
+          "corrected": false,
+          "location": {
+            "start_line": 14,
+            "start_column": 1,
+            "last_line": 15,
+            "last_column": 0,
+            "length": 1,
+            "line": 14,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 16,
+            "start_column": 20,
+            "last_line": 16,
+            "last_column": 28,
+            "length": 9,
+            "line": 16,
+            "column": 20
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 18,
+            "start_column": 16,
+            "last_line": 18,
+            "last_column": 22,
+            "length": 7,
+            "line": 18,
+            "column": 16
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 19,
+            "start_column": 14,
+            "last_line": 19,
+            "last_column": 20,
+            "length": 7,
+            "line": 19,
+            "column": 14
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 20,
+            "start_column": 14,
+            "last_line": 20,
+            "last_column": 19,
+            "length": 6,
+            "line": 20,
+            "column": 14
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 21,
+            "start_column": 16,
+            "last_line": 21,
+            "last_column": 27,
+            "length": 12,
+            "line": 21,
+            "column": 16
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 22,
+            "start_column": 16,
+            "last_line": 22,
+            "last_column": 27,
+            "length": 12,
+            "line": 22,
+            "column": 16
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 23,
+            "start_column": 15,
+            "last_line": 23,
+            "last_column": 27,
+            "length": 13,
+            "line": 23,
+            "column": 15
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Extra empty line detected at block body end.",
+          "cop_name": "Layout/EmptyLinesAroundBlockBody",
+          "corrected": false,
+          "location": {
+            "start_line": 25,
+            "start_column": 1,
+            "last_line": 26,
+            "last_column": 0,
+            "length": 1,
+            "line": 25,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "db/seeds.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [103/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 81,
+            "last_line": 1,
+            "last_column": 103,
+            "length": 23,
+            "line": 1,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [111/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 2,
+            "start_column": 81,
+            "last_line": 2,
+            "last_column": 111,
+            "length": 31,
+            "line": 2,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [81/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 6,
+            "start_column": 81,
+            "last_line": 6,
+            "last_column": 81,
+            "length": 1,
+            "line": 6,
+            "column": 81
+          }
+        }
+      ]
+    },
+    {
+      "path": "test/application_system_test_case.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 9,
+            "last_line": 1,
+            "last_column": 21,
+            "length": 13,
+            "line": 1,
+            "column": 9
+          }
+        }
+      ]
+    },
+    {
+      "path": "test/controllers/posts_controller_test.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 8,
+            "start_column": 8,
+            "last_line": 8,
+            "last_column": 25,
+            "length": 18,
+            "line": 8,
+            "column": 8
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 13,
+            "start_column": 8,
+            "last_line": 13,
+            "last_column": 23,
+            "length": 16,
+            "line": 13,
+            "column": 8
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 18,
+            "start_column": 8,
+            "last_line": 18,
+            "last_column": 27,
+            "length": 20,
+            "line": 18,
+            "column": 8
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 26,
+            "start_column": 8,
+            "last_line": 26,
+            "last_column": 25,
+            "length": 18,
+            "line": 26,
+            "column": 8
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 31,
+            "start_column": 8,
+            "last_line": 31,
+            "last_column": 24,
+            "length": 17,
+            "line": 31,
+            "column": 8
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 36,
+            "start_column": 8,
+            "last_line": 36,
+            "last_column": 27,
+            "length": 20,
+            "line": 36,
+            "column": 8
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [85/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 37,
+            "start_column": 81,
+            "last_line": 37,
+            "last_column": 85,
+            "length": 5,
+            "line": 37,
+            "column": 81
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 41,
+            "start_column": 8,
+            "last_line": 41,
+            "last_column": 28,
+            "length": 21,
+            "line": 41,
+            "column": 8
+          }
+        }
+      ]
+    },
+    {
+      "path": "test/jobs/post_count_word_job_test.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "test/models/post_test.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "test/system/posts_test.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 9,
+            "last_line": 1,
+            "last_column": 38,
+            "length": 30,
+            "line": 1,
+            "column": 9
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 8,
+            "start_column": 8,
+            "last_line": 8,
+            "last_column": 27,
+            "length": 20,
+            "line": 8,
+            "column": 8
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 10,
+            "start_column": 21,
+            "last_line": 10,
+            "last_column": 24,
+            "length": 4,
+            "line": 10,
+            "column": 21
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 10,
+            "start_column": 33,
+            "last_line": 10,
+            "last_column": 39,
+            "length": 7,
+            "line": 10,
+            "column": 33
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 13,
+            "start_column": 8,
+            "last_line": 13,
+            "last_column": 24,
+            "length": 17,
+            "line": 13,
+            "column": 8
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 15,
+            "start_column": 14,
+            "last_line": 15,
+            "last_column": 23,
+            "length": 10,
+            "line": 15,
+            "column": 14
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 17,
+            "start_column": 13,
+            "last_line": 17,
+            "last_column": 18,
+            "length": 6,
+            "line": 17,
+            "column": 13
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 18,
+            "start_column": 13,
+            "last_line": 18,
+            "last_column": 19,
+            "length": 7,
+            "line": 18,
+            "column": 13
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 19,
+            "start_column": 14,
+            "last_line": 19,
+            "last_column": 26,
+            "length": 13,
+            "line": 19,
+            "column": 14
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 21,
+            "start_column": 17,
+            "last_line": 21,
+            "last_column": 47,
+            "length": 31,
+            "line": 21,
+            "column": 17
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 22,
+            "start_column": 14,
+            "last_line": 22,
+            "last_column": 19,
+            "length": 6,
+            "line": 22,
+            "column": 14
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 25,
+            "start_column": 8,
+            "last_line": 25,
+            "last_column": 24,
+            "length": 17,
+            "line": 25,
+            "column": 8
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 27,
+            "start_column": 14,
+            "last_line": 27,
+            "last_column": 19,
+            "length": 6,
+            "line": 27,
+            "column": 14
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 29,
+            "start_column": 13,
+            "last_line": 29,
+            "last_column": 18,
+            "length": 6,
+            "line": 29,
+            "column": 13
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 30,
+            "start_column": 13,
+            "last_line": 30,
+            "last_column": 19,
+            "length": 7,
+            "line": 30,
+            "column": 13
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 31,
+            "start_column": 14,
+            "last_line": 31,
+            "last_column": 26,
+            "length": 13,
+            "line": 31,
+            "column": 14
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 33,
+            "start_column": 17,
+            "last_line": 33,
+            "last_column": 47,
+            "length": 31,
+            "line": 33,
+            "column": 17
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 34,
+            "start_column": 14,
+            "last_line": 34,
+            "last_column": 19,
+            "length": 6,
+            "line": 34,
+            "column": 14
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 37,
+            "start_column": 8,
+            "last_line": 37,
+            "last_column": 26,
+            "length": 19,
+            "line": 37,
+            "column": 8
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 40,
+            "start_column": 16,
+            "last_line": 40,
+            "last_column": 24,
+            "length": 9,
+            "line": 40,
+            "column": 16
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Prefer single-quoted strings when you don't need string interpolation or special symbols.",
+          "cop_name": "Style/StringLiterals",
+          "corrected": false,
+          "location": {
+            "start_line": 43,
+            "start_column": 17,
+            "last_line": 43,
+            "last_column": 49,
+            "length": 33,
+            "line": 43,
+            "column": 17
+          }
+        }
+      ]
+    },
+    {
+      "path": "test/test_helper.rb",
+      "offenses": [
+        {
+          "severity": "convention",
+          "message": "Missing magic comment `# frozen_string_literal: true`.",
+          "cop_name": "Style/FrozenStringLiteralComment",
+          "corrected": false,
+          "location": {
+            "start_line": 1,
+            "start_column": 1,
+            "last_line": 1,
+            "last_column": 1,
+            "length": 1,
+            "line": 1,
+            "column": 1
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Use nested module/class definitions instead of compact style.",
+          "cop_name": "Style/ClassAndModuleChildren",
+          "corrected": false,
+          "location": {
+            "start_line": 5,
+            "start_column": 7,
+            "last_line": 5,
+            "last_column": 29,
+            "length": 23,
+            "line": 5,
+            "column": 7
+          }
+        },
+        {
+          "severity": "convention",
+          "message": "Line is too long. [82/80]",
+          "cop_name": "Metrics/LineLength",
+          "corrected": false,
+          "location": {
+            "start_line": 6,
+            "start_column": 81,
+            "last_line": 6,
+            "last_column": 82,
+            "length": 2,
+            "line": 6,
+            "column": 81
+          }
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "offense_count": 201,
+    "target_file_count": 54,
+    "inspected_file_count": 54
+  }
+}
