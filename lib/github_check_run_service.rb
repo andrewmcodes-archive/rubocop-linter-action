@@ -31,27 +31,27 @@ class GithubCheckRunService
     "/repos/#{@github_data[:owner]}/#{@github_data[:repo]}/check-runs"
   end
 
-  def create_check_payload
+  def base_payload(status)
     {
       name: CHECK_NAME,
       head_sha: @github_data[:sha],
-      status: 'in_progress',
+      status: status,
       started_at: Time.now.iso8601
     }
   end
 
+  def create_check_payload
+    base_payload('in_progress')
+  end
+
   def update_check_payload
-    {
-      name: CHECK_NAME,
-      head_sha: @github_data[:sha],
-      status: 'completed',
-      completed_at: Time.now.iso8601,
+    base_payload('completed').merge!(
       conclusion: @conclusion,
       output: {
         title: CHECK_NAME,
         summary: @summary,
-        annotations: @annotations
-      }
-    }
+        annotations: (@annotations if @conclusion == 'failure')
+      }.compact
+    )
   end
 end
