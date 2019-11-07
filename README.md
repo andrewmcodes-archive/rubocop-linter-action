@@ -7,7 +7,7 @@
 
 # :white_check_mark: Rubocop Linter Action
 
-A GitHub Action to run Rubocop against your code and create annotations in the GitHub UI.
+A GitHub Action to run [Rubocop](https://github.com/rubocop-hq/rubocop) against your code and create annotations in the GitHub UI.
 
 - [:white_check_mark: Rubocop Linter Action](#whitecheckmark-rubocop-linter-action)
   - [:page_facing_up: Introduction](#pagefacingup-introduction)
@@ -20,6 +20,7 @@ A GitHub Action to run Rubocop against your code and create annotations in the G
   - [:rotating_light: Code of Conduct](#rotatinglight-code-of-conduct)
   - [:copyright: License](#copyright-license)
   - [:1st_place_medal: Recognition](#1stplacemedal-recognition)
+  - [:robot: Check Out My Other Ruby GitHub Actions](#robot-check-out-my-other-ruby-github-actions)
   - [✨ Contributors](#%e2%9c%a8-contributors)
 
 ## :page_facing_up: Introduction
@@ -87,6 +88,11 @@ Due to the GitHub Check Runs API, we can only return 50 annotations per run. See
 ## :1st_place_medal: Recognition
 
 This project was originally forked from [gimenete/rubocop-action](https://github.com/gimenete/rubocop-action). Many thanks to [Alberto Gimeno](https://github.com/gimenete) for creating this project.
+
+## :robot: Check Out My Other Ruby GitHub Actions
+
+- [andrewmcodes/haml-lint-action](https://github.com/andrewmcodes/haml-lint-action).
+- [andrewmcodes/standardrb-action](https://github.com/andrewmcodes/standardrb-action).
 
 ## ✨ Contributors
 
