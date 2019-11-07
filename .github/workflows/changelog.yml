@@ -15,6 +15,7 @@ jobs:
         ruby-version: 2.6.x
     - name: Create local changes
       run: |
+        gem install bundler:2.0.2
         bundle install
         github_changelog_generator -u andrewmcodes -p rubocop-linter-action --token ${{ secrets.GITHUB_TOKEN }}
     - name: Commit files
