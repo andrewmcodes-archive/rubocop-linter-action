@@ -1,12 +1,26 @@
 ![Rubocop](https://github.com/andrewmcodes/rubocop-linter-action/workflows/Rubocop/badge.svg)
 ![Tests](https://github.com/andrewmcodes/rubocop-linter-action/workflows/Test/badge.svg)
 ![Build](https://github.com/andrewmcodes/rubocop-linter-action/workflows/Build/badge.svg)
+[![Changelog](https://github.com/andrewmcodes/rubocop-linter-action/workflows/Changelog/badge.svg)](/CHANGELOG.md)
 ![Version Number](https://img.shields.io/static/v1?label=Version&message=v1.0.3&color=blue)
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
 # :white_check_mark: Rubocop Linter Action
 
 A GitHub Action to run Rubocop against your code and create annotations in the GitHub UI.
+
+- [:white_check_mark: Rubocop Linter Action](#whitecheckmark-rubocop-linter-action)
+  - [:page_facing_up: Introduction](#pagefacingup-introduction)
+  - [:bulb: Usage](#bulb-usage)
+    - [:package: Example Workflow](#package-example-workflow)
+  - [:warning: Gotchas](#warning-gotchas)
+  - [:camera_flash: Screenshots](#cameraflash-screenshots)
+  - [:bookmark: Changelog](#bookmark-changelog)
+  - [:sos: Contributing](#sos-contributing)
+  - [:rotating_light: Code of Conduct](#rotatinglight-code-of-conduct)
+  - [:copyright: License](#copyright-license)
+  - [:1st_place_medal: Recognition](#1stplacemedal-recognition)
+  - [✨ Contributors](#%e2%9c%a8-contributors)
 
 ## :page_facing_up: Introduction
 
@@ -53,6 +67,10 @@ Due to the GitHub Check Runs API, we can only return 50 annotations per run. See
 
 ![Rubocop Linter Checks Overview](screenshots/check-overview.png)
 ![Rubocop Linter File Annotation](screenshots/file-annotation.png)
+
+## :bookmark: Changelog
+
+[View our Changelog](/CHANGELOG.md)
 
 ## :sos: Contributing
 
