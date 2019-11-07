@@ -4,6 +4,10 @@
 
 [Full Changelog](https://github.com/andrewmcodes/rubocop-linter-action/compare/v1.0.3...HEAD)
 
+**Closed issues:**
+
+- Create automated changelog  [\#38](https://github.com/andrewmcodes/rubocop-linter-action/issues/38)
+
 **Merged pull requests:**
 
 - add changelog generator [\#44](https://github.com/andrewmcodes/rubocop-linter-action/pull/44) ([andrewmcodes](https://github.com/andrewmcodes))
