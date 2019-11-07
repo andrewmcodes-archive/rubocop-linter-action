@@ -50,8 +50,8 @@ class GithubCheckRunService
       output: {
         title: CHECK_NAME,
         summary: @summary,
-        annotations: (@annotations if @conclusion == 'failure')
-      }.compact
+        annotations: @annotations
+      }
     )
   end
 end

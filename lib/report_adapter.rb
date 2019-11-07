@@ -44,6 +44,7 @@ class ReportAdapter
           )
         end
       end
+      annotation_list
     end
 
     private
