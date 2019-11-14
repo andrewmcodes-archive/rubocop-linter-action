@@ -14,6 +14,7 @@
 
 **Merged pull requests:**
 
+- docs: add reidab as a contributor [\#51](https://github.com/andrewmcodes/rubocop-linter-action/pull/51) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - docs: add bbugh as a contributor [\#50](https://github.com/andrewmcodes/rubocop-linter-action/pull/50) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - Add cop name to report messages [\#49](https://github.com/andrewmcodes/rubocop-linter-action/pull/49) ([bbugh](https://github.com/bbugh))
 - Use 'notice' annotation style for refactor + convention offenses [\#46](https://github.com/andrewmcodes/rubocop-linter-action/pull/46) ([reidab](https://github.com/reidab))
