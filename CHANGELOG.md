@@ -14,6 +14,7 @@
 
 **Merged pull requests:**
 
+- version bump to v1.0.4 [\#52](https://github.com/andrewmcodes/rubocop-linter-action/pull/52) ([andrewmcodes](https://github.com/andrewmcodes))
 - docs: add reidab as a contributor [\#51](https://github.com/andrewmcodes/rubocop-linter-action/pull/51) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - docs: add bbugh as a contributor [\#50](https://github.com/andrewmcodes/rubocop-linter-action/pull/50) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - Add cop name to report messages [\#49](https://github.com/andrewmcodes/rubocop-linter-action/pull/49) ([bbugh](https://github.com/bbugh))
@@ -33,6 +34,7 @@
 - v1.0.3 version bump [\#42](https://github.com/andrewmcodes/rubocop-linter-action/pull/42) ([andrewmcodes](https://github.com/andrewmcodes))
 - only send GitHub offenses instead of entire json output [\#41](https://github.com/andrewmcodes/rubocop-linter-action/pull/41) ([andrewmcodes](https://github.com/andrewmcodes))
 - Update issue templates [\#39](https://github.com/andrewmcodes/rubocop-linter-action/pull/39) ([andrewmcodes](https://github.com/andrewmcodes))
+- v1.0.2 version bump [\#37](https://github.com/andrewmcodes/rubocop-linter-action/pull/37) ([andrewmcodes](https://github.com/andrewmcodes))
 
 ## [v1.0.2](https://github.com/andrewmcodes/rubocop-linter-action/tree/v1.0.2) (2019-11-07)
 
@@ -40,7 +42,6 @@
 
 **Merged pull requests:**
 
-- v1.0.2 version bump [\#37](https://github.com/andrewmcodes/rubocop-linter-action/pull/37) ([andrewmcodes](https://github.com/andrewmcodes))
 - docs: add amerritt14 as a contributor [\#36](https://github.com/andrewmcodes/rubocop-linter-action/pull/36) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - Fix typo, conslusion to conclusion [\#35](https://github.com/andrewmcodes/rubocop-linter-action/pull/35) ([amerritt14](https://github.com/amerritt14))
 - add start and end column support [\#34](https://github.com/andrewmcodes/rubocop-linter-action/pull/34) ([andrewmcodes](https://github.com/andrewmcodes))
