@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- version bump to v1.0.5 [\#54](https://github.com/andrewmcodes/rubocop-linter-action/pull/54) ([andrewmcodes](https://github.com/andrewmcodes))
 - Add additional input params [\#53](https://github.com/andrewmcodes/rubocop-linter-action/pull/53) ([chiefpansancolt](https://github.com/chiefpansancolt))
 
 ## [v1.0.4](https://github.com/andrewmcodes/rubocop-linter-action/tree/v1.0.4) (2019-11-15)
@@ -26,7 +27,6 @@
 - docs: add reidab as a contributor [\#51](https://github.com/andrewmcodes/rubocop-linter-action/pull/51) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - docs: add bbugh as a contributor [\#50](https://github.com/andrewmcodes/rubocop-linter-action/pull/50) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - Add cop name to report messages [\#49](https://github.com/andrewmcodes/rubocop-linter-action/pull/49) ([bbugh](https://github.com/bbugh))
-- Use 'notice' annotation style for refactor + convention offenses [\#46](https://github.com/andrewmcodes/rubocop-linter-action/pull/46) ([reidab](https://github.com/reidab))
 - add changelog generator [\#44](https://github.com/andrewmcodes/rubocop-linter-action/pull/44) ([andrewmcodes](https://github.com/andrewmcodes))
 
 ## [v1.0.3](https://github.com/andrewmcodes/rubocop-linter-action/tree/v1.0.3) (2019-11-07)
@@ -49,6 +49,7 @@
 
 **Merged pull requests:**
 
+- Use 'notice' annotation style for refactor + convention offenses [\#46](https://github.com/andrewmcodes/rubocop-linter-action/pull/46) ([reidab](https://github.com/reidab))
 - v1.0.2 version bump [\#37](https://github.com/andrewmcodes/rubocop-linter-action/pull/37) ([andrewmcodes](https://github.com/andrewmcodes))
 - docs: add amerritt14 as a contributor [\#36](https://github.com/andrewmcodes/rubocop-linter-action/pull/36) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - Fix typo, conslusion to conclusion [\#35](https://github.com/andrewmcodes/rubocop-linter-action/pull/35) ([amerritt14](https://github.com/amerritt14))
