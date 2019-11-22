@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/andrewmcodes/rubocop-linter-action/tree/HEAD)
 
-[Full Changelog](https://github.com/andrewmcodes/rubocop-linter-action/compare/v1.0.6...HEAD)
+[Full Changelog](https://github.com/andrewmcodes/rubocop-linter-action/compare/v2.0.0...HEAD)
+
+**Merged pull requests:**
+
+- docs: add chiefpansancolt as a contributor [\#61](https://github.com/andrewmcodes/rubocop-linter-action/pull/61) ([allcontributors[bot]](https://github.com/apps/allcontributors))
+
+## [v2.0.0](https://github.com/andrewmcodes/rubocop-linter-action/tree/v2.0.0) (2019-11-22)
+
+[Full Changelog](https://github.com/andrewmcodes/rubocop-linter-action/compare/v1.0.6...v2.0.0)
 
 **Merged pull requests:**
 
