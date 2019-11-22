@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- docs: add InteNs as a contributor [\#62](https://github.com/andrewmcodes/rubocop-linter-action/pull/62) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - docs: add chiefpansancolt as a contributor [\#61](https://github.com/andrewmcodes/rubocop-linter-action/pull/61) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 
 ## [v2.0.0](https://github.com/andrewmcodes/rubocop-linter-action/tree/v2.0.0) (2019-11-22)
@@ -33,7 +34,6 @@
 **Merged pull requests:**
 
 - version bump to v1.0.6 [\#58](https://github.com/andrewmcodes/rubocop-linter-action/pull/58) ([andrewmcodes](https://github.com/andrewmcodes))
-- add shell check linter [\#56](https://github.com/andrewmcodes/rubocop-linter-action/pull/56) ([andrewmcodes](https://github.com/andrewmcodes))
 
 ## [v1.0.5](https://github.com/andrewmcodes/rubocop-linter-action/tree/v1.0.5) (2019-11-18)
 
@@ -41,6 +41,7 @@
 
 **Merged pull requests:**
 
+- add shell check linter [\#56](https://github.com/andrewmcodes/rubocop-linter-action/pull/56) ([andrewmcodes](https://github.com/andrewmcodes))
 - version bump to v1.0.5 [\#54](https://github.com/andrewmcodes/rubocop-linter-action/pull/54) ([andrewmcodes](https://github.com/andrewmcodes))
 - Add additional input params [\#53](https://github.com/andrewmcodes/rubocop-linter-action/pull/53) ([chiefpansancolt](https://github.com/chiefpansancolt))
 
