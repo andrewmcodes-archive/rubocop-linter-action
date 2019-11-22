@@ -2,7 +2,24 @@
 
 ## [Unreleased](https://github.com/andrewmcodes/rubocop-linter-action/tree/HEAD)
 
-[Full Changelog](https://github.com/andrewmcodes/rubocop-linter-action/compare/v1.0.4...HEAD)
+[Full Changelog](https://github.com/andrewmcodes/rubocop-linter-action/compare/v1.0.5...HEAD)
+
+**Implemented enhancements:**
+
+- Use bundled version of rubocop instead of latest gems [\#48](https://github.com/andrewmcodes/rubocop-linter-action/issues/48)
+- \[Enhancement\] Add ability to use custom rubocop gem [\#45](https://github.com/andrewmcodes/rubocop-linter-action/issues/45)
+
+**Fixed bugs:**
+
+- Error when building [\#57](https://github.com/andrewmcodes/rubocop-linter-action/issues/57)
+
+**Merged pull requests:**
+
+- add shell check linter [\#56](https://github.com/andrewmcodes/rubocop-linter-action/pull/56) ([andrewmcodes](https://github.com/andrewmcodes))
+
+## [v1.0.5](https://github.com/andrewmcodes/rubocop-linter-action/tree/v1.0.5) (2019-11-18)
+
+[Full Changelog](https://github.com/andrewmcodes/rubocop-linter-action/compare/v1.0.4...v1.0.5)
 
 **Merged pull requests:**
 
@@ -27,6 +44,7 @@
 - docs: add reidab as a contributor [\#51](https://github.com/andrewmcodes/rubocop-linter-action/pull/51) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - docs: add bbugh as a contributor [\#50](https://github.com/andrewmcodes/rubocop-linter-action/pull/50) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - Add cop name to report messages [\#49](https://github.com/andrewmcodes/rubocop-linter-action/pull/49) ([bbugh](https://github.com/bbugh))
+- Use 'notice' annotation style for refactor + convention offenses [\#46](https://github.com/andrewmcodes/rubocop-linter-action/pull/46) ([reidab](https://github.com/reidab))
 - add changelog generator [\#44](https://github.com/andrewmcodes/rubocop-linter-action/pull/44) ([andrewmcodes](https://github.com/andrewmcodes))
 
 ## [v1.0.3](https://github.com/andrewmcodes/rubocop-linter-action/tree/v1.0.3) (2019-11-07)
@@ -49,7 +67,6 @@
 
 **Merged pull requests:**
 
-- Use 'notice' annotation style for refactor + convention offenses [\#46](https://github.com/andrewmcodes/rubocop-linter-action/pull/46) ([reidab](https://github.com/reidab))
 - v1.0.2 version bump [\#37](https://github.com/andrewmcodes/rubocop-linter-action/pull/37) ([andrewmcodes](https://github.com/andrewmcodes))
 - docs: add amerritt14 as a contributor [\#36](https://github.com/andrewmcodes/rubocop-linter-action/pull/36) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - Fix typo, conslusion to conclusion [\#35](https://github.com/andrewmcodes/rubocop-linter-action/pull/35) ([amerritt14](https://github.com/amerritt14))
