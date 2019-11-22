@@ -15,6 +15,7 @@
 
 **Merged pull requests:**
 
+- version bump to v1.0.6 [\#58](https://github.com/andrewmcodes/rubocop-linter-action/pull/58) ([andrewmcodes](https://github.com/andrewmcodes))
 - add shell check linter [\#56](https://github.com/andrewmcodes/rubocop-linter-action/pull/56) ([andrewmcodes](https://github.com/andrewmcodes))
 
 ## [v1.0.5](https://github.com/andrewmcodes/rubocop-linter-action/tree/v1.0.5) (2019-11-18)
@@ -73,6 +74,7 @@
 - add start and end column support [\#34](https://github.com/andrewmcodes/rubocop-linter-action/pull/34) ([andrewmcodes](https://github.com/andrewmcodes))
 - update readme [\#33](https://github.com/andrewmcodes/rubocop-linter-action/pull/33) ([andrewmcodes](https://github.com/andrewmcodes))
 - add action.yml and cleanup dockerfile [\#32](https://github.com/andrewmcodes/rubocop-linter-action/pull/32) ([andrewmcodes](https://github.com/andrewmcodes))
+- Update dockerfile and add build test action [\#30](https://github.com/andrewmcodes/rubocop-linter-action/pull/30) ([andrewmcodes](https://github.com/andrewmcodes))
 
 ## [v1.0.1](https://github.com/andrewmcodes/rubocop-linter-action/tree/v1.0.1) (2019-11-05)
 
@@ -89,7 +91,6 @@
 **Merged pull requests:**
 
 - v1.0.1 version bump [\#31](https://github.com/andrewmcodes/rubocop-linter-action/pull/31) ([andrewmcodes](https://github.com/andrewmcodes))
-- Update dockerfile and add build test action [\#30](https://github.com/andrewmcodes/rubocop-linter-action/pull/30) ([andrewmcodes](https://github.com/andrewmcodes))
 - Do not send in an empty array of annotations on success [\#29](https://github.com/andrewmcodes/rubocop-linter-action/pull/29) ([andrewmcodes](https://github.com/andrewmcodes))
 
 ## [v1.0.0](https://github.com/andrewmcodes/rubocop-linter-action/tree/v1.0.0) (2019-10-29)
