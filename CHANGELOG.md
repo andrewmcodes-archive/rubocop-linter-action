@@ -7,6 +7,7 @@
 **Fixed bugs:**
 
 - The RuboCop version is not respected if there are extra gems [\#67](https://github.com/andrewmcodes/rubocop-linter-action/issues/67)
+- Rubocop action stops the build even when level is set to fatal [\#63](https://github.com/andrewmcodes/rubocop-linter-action/issues/63)
 
 **Closed issues:**
 
@@ -17,6 +18,7 @@
 
 - only push to the playground repo on push [\#74](https://github.com/andrewmcodes/rubocop-linter-action/pull/74) ([andrewmcodes](https://github.com/andrewmcodes))
 - fix obsolete configuration error in rubocop config [\#73](https://github.com/andrewmcodes/rubocop-linter-action/pull/73) ([andrewmcodes](https://github.com/andrewmcodes))
+- Bugfix/respect rubocop level [\#72](https://github.com/andrewmcodes/rubocop-linter-action/pull/72) ([hackerdude](https://github.com/hackerdude))
 - Fix version reference in README [\#65](https://github.com/andrewmcodes/rubocop-linter-action/pull/65) ([eregon](https://github.com/eregon))
 - docs: add InteNs as a contributor [\#62](https://github.com/andrewmcodes/rubocop-linter-action/pull/62) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - docs: add chiefpansancolt as a contributor [\#61](https://github.com/andrewmcodes/rubocop-linter-action/pull/61) ([allcontributors[bot]](https://github.com/apps/allcontributors))
@@ -104,7 +106,6 @@
 - add start and end column support [\#34](https://github.com/andrewmcodes/rubocop-linter-action/pull/34) ([andrewmcodes](https://github.com/andrewmcodes))
 - update readme [\#33](https://github.com/andrewmcodes/rubocop-linter-action/pull/33) ([andrewmcodes](https://github.com/andrewmcodes))
 - add action.yml and cleanup dockerfile [\#32](https://github.com/andrewmcodes/rubocop-linter-action/pull/32) ([andrewmcodes](https://github.com/andrewmcodes))
-- Update dockerfile and add build test action [\#30](https://github.com/andrewmcodes/rubocop-linter-action/pull/30) ([andrewmcodes](https://github.com/andrewmcodes))
 
 ## [v1.0.1](https://github.com/andrewmcodes/rubocop-linter-action/tree/v1.0.1) (2019-11-05)
 
@@ -121,6 +122,7 @@
 **Merged pull requests:**
 
 - v1.0.1 version bump [\#31](https://github.com/andrewmcodes/rubocop-linter-action/pull/31) ([andrewmcodes](https://github.com/andrewmcodes))
+- Update dockerfile and add build test action [\#30](https://github.com/andrewmcodes/rubocop-linter-action/pull/30) ([andrewmcodes](https://github.com/andrewmcodes))
 - Do not send in an empty array of annotations on success [\#29](https://github.com/andrewmcodes/rubocop-linter-action/pull/29) ([andrewmcodes](https://github.com/andrewmcodes))
 
 ## [v1.0.0](https://github.com/andrewmcodes/rubocop-linter-action/tree/v1.0.0) (2019-10-29)
