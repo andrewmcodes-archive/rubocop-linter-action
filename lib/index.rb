@@ -24,11 +24,17 @@ end
 @rubocop += ' --except ' + ENV['INPUT_EXCLUDED_COPS'] if ENV['INPUT_EXCLUDED_COPS'] != ''
 @rubocop += ' --fail-level ' + ENV['INPUT_FAIL_LEVEL']
 
+cmd_sysout = `#{@rubocop}`
+# Sorry, I'm a purist and $? is well understood without requiring anything.
+# rubocop:disable Style/SpecialGlobalVars
+cmd_result = $?.to_i
+# rubocop:enable Style/SpecialGlobalVars
 @report =
   if ENV['REPORT_PATH']
     read_json(ENV['REPORT_PATH'])
   else
-    Dir.chdir(ENV['GITHUB_WORKSPACE']) { JSON.parse(`#{@rubocop}`) }
+    Dir.chdir(ENV['GITHUB_WORKSPACE']) { JSON.parse(cmd_sysout) }
   end
+@report['__exit_code'] = cmd_result
 
 GithubCheckRunService.new(@report, @github_data, ReportAdapter).run

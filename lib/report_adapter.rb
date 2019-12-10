@@ -12,7 +12,7 @@ class ReportAdapter
     }.freeze
 
     def conclusion(report)
-      return CONCLUSION_TYPES[:failure] if total_offenses(report).positive?
+      return CONCLUSION_TYPES[:failure] if status_code(report).positive?
 
       CONCLUSION_TYPES[:success]
     end
@@ -55,6 +55,10 @@ class ReportAdapter
 
     def total_offenses(report)
       report.dig('summary', 'offense_count')
+    end
+
+    def status_code(report)
+      report.dig('__exit_code')
     end
   end
 end

@@ -9,10 +9,10 @@ describe GithubCheckRunService do
 
   it '#run' do
     stub_request(:any, 'https://api.github.com/repos/owner/repository_name/check-runs/id')
-      .to_return(status: 200, body: '{}')
+      .to_return(status: 200, body: '{"__exit_code":0}')
 
     stub_request(:any, 'https://api.github.com/repos/owner/repository_name/check-runs')
-      .to_return(status: 200, body: '{"id": "id"}')
+      .to_return(status: 200, body: '{"id": "id", "__exit_code":1}')
 
     output = service.run
     expect(output).to be_a(Hash)

@@ -9,7 +9,13 @@ describe ReportAdapter do
 
   let(:adapter) { ReportAdapter }
 
-  it '.conclusion' do
+  it '.conclusion_happy' do
+    rubocop_report['__exit_code'] = 0
+    result = adapter.conclusion(rubocop_report)
+    expect(result).to eq('success')
+  end
+
+  it '.conclusion_failure' do
     result = adapter.conclusion(rubocop_report)
     expect(result).to eq('failure')
   end
