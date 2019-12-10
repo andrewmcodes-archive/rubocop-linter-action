@@ -12,18 +12,22 @@ class ReportAdapter
     }.freeze
 
     def conclusion(report)
-      return CONCLUSION_TYPES[:failure] if total_offenses(report).positive?
+      return CONCLUSION_TYPES[:failure] if status_code(report).positive?
 
       CONCLUSION_TYPES[:success]
     end
 
     def summary(report)
-      "#{total_offenses(report)} offense(s) found"
+      corrected_count = total_corrected_offenses(report)
+      message = "#{total_offenses(report)} offense(s) found."
+      message = "#{message} #{corrected_count} offsense(s) corrected." if corrected_count > 0
+      message
     end
 
     def annotations(report) # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
       annotation_list = []
       count = 0
+      corrected = 0
       report['files'].each do |file|
         file['offenses'].each do |offense|
           count += 1
@@ -55,6 +59,20 @@ class ReportAdapter
 
     def total_offenses(report)
       report.dig('summary', 'offense_count')
+    end
+
+    def total_corrected_offenses(report)
+      corrected = 0
+      report['files'].each do |file|
+        file['offenses'].each do |offense|
+          corrected += 1 if offense['corrected'].to_s == 'true'
+        end
+      end
+      corrected
+    end
+
+    def status_code(report)
+      report.dig('__exit_code')
     end
   end
 end
