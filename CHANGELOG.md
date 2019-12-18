@@ -19,6 +19,7 @@
 
 - fix image address for readthedocs index [\#80](https://github.com/andrewmcodes/rubocop-linter-action/pull/80) ([andrewmcodes](https://github.com/andrewmcodes))
 - add readthedocs config [\#79](https://github.com/andrewmcodes/rubocop-linter-action/pull/79) ([andrewmcodes](https://github.com/andrewmcodes))
+- version 2.0.1 release [\#78](https://github.com/andrewmcodes/rubocop-linter-action/pull/78) ([andrewmcodes](https://github.com/andrewmcodes))
 - add documentation for readthedocs [\#77](https://github.com/andrewmcodes/rubocop-linter-action/pull/77) ([andrewmcodes](https://github.com/andrewmcodes))
 - docs: add hackerdude as a contributor [\#76](https://github.com/andrewmcodes/rubocop-linter-action/pull/76) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - only push to the playground repo on push [\#74](https://github.com/andrewmcodes/rubocop-linter-action/pull/74) ([andrewmcodes](https://github.com/andrewmcodes))
