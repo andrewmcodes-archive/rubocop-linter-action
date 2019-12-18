@@ -17,6 +17,7 @@
 
 **Merged pull requests:**
 
+- add readthedocs config [\#79](https://github.com/andrewmcodes/rubocop-linter-action/pull/79) ([andrewmcodes](https://github.com/andrewmcodes))
 - add documentation for readthedocs [\#77](https://github.com/andrewmcodes/rubocop-linter-action/pull/77) ([andrewmcodes](https://github.com/andrewmcodes))
 - docs: add hackerdude as a contributor [\#76](https://github.com/andrewmcodes/rubocop-linter-action/pull/76) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - only push to the playground repo on push [\#74](https://github.com/andrewmcodes/rubocop-linter-action/pull/74) ([andrewmcodes](https://github.com/andrewmcodes))
