@@ -10,6 +10,7 @@
 
 **Merged pull requests:**
 
+- version 3.0.0.rc1 release [\#82](https://github.com/andrewmcodes/rubocop-linter-action/pull/82) ([andrewmcodes](https://github.com/andrewmcodes))
 - docs: add excid3 as a contributor [\#81](https://github.com/andrewmcodes/rubocop-linter-action/pull/81) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 
 ## [v2.0.1](https://github.com/andrewmcodes/rubocop-linter-action/tree/v2.0.1) (2019-12-18)
@@ -97,7 +98,6 @@
 - Add cop name to report messages [\#49](https://github.com/andrewmcodes/rubocop-linter-action/pull/49) ([bbugh](https://github.com/bbugh))
 - Use 'notice' annotation style for refactor + convention offenses [\#46](https://github.com/andrewmcodes/rubocop-linter-action/pull/46) ([reidab](https://github.com/reidab))
 - add changelog generator [\#44](https://github.com/andrewmcodes/rubocop-linter-action/pull/44) ([andrewmcodes](https://github.com/andrewmcodes))
-- only send GitHub offenses instead of entire json output [\#41](https://github.com/andrewmcodes/rubocop-linter-action/pull/41) ([andrewmcodes](https://github.com/andrewmcodes))
 
 ## [v1.0.3](https://github.com/andrewmcodes/rubocop-linter-action/tree/v1.0.3) (2019-11-07)
 
@@ -110,6 +110,7 @@
 **Merged pull requests:**
 
 - v1.0.3 version bump [\#42](https://github.com/andrewmcodes/rubocop-linter-action/pull/42) ([andrewmcodes](https://github.com/andrewmcodes))
+- only send GitHub offenses instead of entire json output [\#41](https://github.com/andrewmcodes/rubocop-linter-action/pull/41) ([andrewmcodes](https://github.com/andrewmcodes))
 - Update issue templates [\#39](https://github.com/andrewmcodes/rubocop-linter-action/pull/39) ([andrewmcodes](https://github.com/andrewmcodes))
 
 ## [v1.0.2](https://github.com/andrewmcodes/rubocop-linter-action/tree/v1.0.2) (2019-11-07)
