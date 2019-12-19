@@ -1,133 +1,83 @@
+<!-- Variables -->
+
+<!-- Files -->
+[changelog]: /CHANGELOG.md
+[coc]: /CODE_OF_CONDUCT.md
+[contributing]: /CONTRIBUTING.md
+[license]: /LICENSE.md
+<!-- Images -->
+[image1]: /screenshots/check-overview.png
+[image2]: /screenshots/file-annotation.png
+[logo]: /screenshots/rubocop-linter-action.png
+
+<!-- End Variables -->
+
+![Rubocop Linter Action][logo]
 ![Linters](https://github.com/andrewmcodes/rubocop-linter-action/workflows/Linters/badge.svg)
 ![Tests](https://github.com/andrewmcodes/rubocop-linter-action/workflows/Test/badge.svg)
+[![Changelog](https://github.com/andrewmcodes/rubocop-linter-action/workflows/Changelog/badge.svg)][changelog]
 ![Build](https://github.com/andrewmcodes/rubocop-linter-action/workflows/Build/badge.svg)
-[![Changelog](https://github.com/andrewmcodes/rubocop-linter-action/workflows/Changelog/badge.svg)](/CHANGELOG.md)
+
 ![Version Number](https://img.shields.io/static/v1?label=Version&message=v2.0.1&color=blue)
 [![Documentation Status](https://readthedocs.org/projects/rubocop-linter-action/badge/?version=latest)](https://rubocop-linter-action.readthedocs.io/en/latest/?badge=latest)
 [![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors)
 
-# :white_check_mark: Rubocop Linter Action
+# Rubocop Linter Action
 
-A GitHub Action to run [Rubocop](https://github.com/rubocop-hq/rubocop) against your code and create annotations in the GitHub UI.
+A GitHub Action to run [Rubocop](https://github.com/rubocop-hq/rubocop) against your codebase and output the results in the [GitHub Checks UI](https://developer.github.com/changes/2018-05-07-new-checks-api-public-beta/).
 
-- [:white_check_mark: Rubocop Linter Action](#whitecheckmark-rubocop-linter-action)
-  - [:page_facing_up: Introduction](#pagefacingup-introduction)
-  - [:bulb: Usage](#bulb-usage)
-    - [:package: Example Workflow](#package-example-workflow)
-    - [:moneybag: Available Inputs](#moneybag-available-inputs)
-  - [:warning: Gotchas](#warning-gotchas)
-  - [:camera_flash: Screenshots](#cameraflash-screenshots)
-  - [:bookmark: Changelog](#bookmark-changelog)
-  - [:sos: Contributing](#sos-contributing)
-  - [:rotating_light: Code of Conduct](#rotatinglight-code-of-conduct)
-  - [:copyright: License](#copyright-license)
-  - [:1st_place_medal: Recognition](#1stplacemedal-recognition)
-  - [:robot: Check Out My Other Ruby GitHub Actions](#robot-check-out-my-other-ruby-github-actions)
-  - [✨ Contributors](#%e2%9c%a8-contributors)
-
-## :page_facing_up: Introduction
+## Introduction
 
 GitHub Actions are an amazing new tool that can dramatically improve productivity while using the GitHub platform. While it is not hard to write a custom GitHub action to run Rubocop on your codebase, this action takes that functionality one step further using the checks API. After the Rubocop Linter Action runs Rubocop against your code, it will create annotations that you can easily view, matched up with the offending code.
 
 Since GitHub actions and the checks API are continually changing, it is possible that there will be breaking API changes that affect this action. If so, please open an issue and I will look into it as soon as I can.
 
-## :bulb: Usage
+## Usage
 
-Add the following to your GitHub action workflow to use Rubocop Linter Action:
+### Documentation
+
+**Please view the [official documentation](https://rubocop-linter-action.readthedocs.io) for more detailed instructions**, including how to setup and use a configuration file to customize the action. Note that you can set the version for the documentation you are viewing in the bottom right.
+
+### Quickstart
+
+Default usage, similar to running `gem install rubocop && rubocop` from your command line:
 
 ```yaml
-- name: Rubocop Linter
+- name: Rubocop Linter Action
   uses: andrewmcodes/rubocop-linter-action@v2.0.1
-  with:
-    additional_gems: 'rubocop-rails rubocop-performance'
-    fail_level: 'warning'
   env:
     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-It is **highly** recommend you tie yourself to a version and do not do the following. I promise your life will be much easier. 😇
+### Screenshots
 
-```yml
-# ❌ Danger, sometimes I break things!
-uses: andrewmcodes/rubocop-linter-action@master
+![Rubocop Linter Checks Overview][image1]
+![Rubocop Linter File Annotation][image2]
 
-# ✅ Much better.
-uses: andrewmcodes/rubocop-linter-action@v2.0.1
-```
+## Community
 
-### :package: Example Workflow
+### Changelog
 
-Here is an example workflow file incorporating Rubocop Linter Action:
+[View our Changelog][changelog]
 
-```yaml
-name: Rubocop
+### Contributing
 
-on: [push]
+[Contributing Guide][contributing]
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-    - name: Rubocop Linter
-      uses: andrewmcodes/rubocop-linter-action@v2.0.1
-      with:
-        additional_gems: 'rubocop-rails rubocop-performance'
-        fail_level: 'warning'
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
+### Code of Conduct
 
-**Go [here](https://github.com/andrewmcodes/rubocop-linter-action-playground/blob/master/.github/workflows/test.yml) to see more examples!**
+[Code of Conduct][coc]
 
-### :moneybag: Available Inputs
+### License
 
-| **Input Parm Name** | **Required** | **Default Value** | **Description**                                                                                       | **Examples of Equivalent Local Commands**                                  |
-| ------------------- | ------------ | ----------------- | ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| bundle              | false        | false             | If you would like to run `bundle install` on your project instead of `gem install`                    | `bundle install --deployment --jobs 4 --retry 3`                           |
-| version             | false        | latest GA         | Define a later version of rubocop if latest is not needed                                             | `gem install rubocop -v 0.76.0`                                            |
-| additional_gems     | false        |                   | Additional Gems can be installed via one line with spaces and commands are supported like a version   | `gem install rubocop-rails rubocop-performance 'rubocop-i18n:2.0.0'`         |
-| config_path         | false        | repo ./           | If the config path is another spot in the repo or not named `.rubocop.yml`                            | `rubocop -c .rubocop_config_test.yml`                                      |
-| exclude_cops        | false        |                   | Define a list of paths to exclude from being linted.                                                  | `rubocop --except 'Style/FrozenStringLiteralComment Style/StringLiterals'` |
-| fail_level          | false        | 'warning'         | Can define `refactor`, `convention`, `warning`, `error` and 'fatal' to cause Rubocop to error out on. | `rubocop --fail-level 'warning'`                                           |
+[MIT][license]
 
-## :warning: Gotchas
-
-1. Due to the GitHub Check Runs API, we can only return 50 annotations per run. See [here](https://developer.github.com/v3/checks/runs/#output-object) for more info.
-2. There is a bug with the Checks API that might cause your runs to get jumbled in the UI, but they will all still run and render annotations in the diff correctly.
-3. You can't use --version with multiple gems. You can specify multiple gems with version requirements using `gem install 'my_gem:1.0.0' 'my_other_gem:~>2.0.0'`
-
-## :camera_flash: Screenshots
-
-![Rubocop Linter Checks Overview](screenshots/check-overview.png)
-![Rubocop Linter File Annotation](screenshots/file-annotation.png)
-
-## :bookmark: Changelog
-
-[View our Changelog](/CHANGELOG.md)
-
-## :sos: Contributing
-
-[Contributing Guide](/CONTRIBUTING.md)
-
-## :rotating_light: Code of Conduct
-
-[Code of Conduct](/CODE_OF_CONDUCT.md)
-
-## :copyright: License
-
-[MIT](/LICENSE.md)
-
-## :1st_place_medal: Recognition
-
-This project was originally forked from [gimenete/rubocop-action](https://github.com/gimenete/rubocop-action). Many thanks to [Alberto Gimeno](https://github.com/gimenete) for creating this project.
-
-## :robot: Check Out My Other Ruby GitHub Actions
+## Other Ruby GitHub Actions
 
 - [andrewmcodes/haml-lint-action](https://github.com/andrewmcodes/haml-lint-action).
 - [andrewmcodes/standardrb-action](https://github.com/andrewmcodes/standardrb-action).
 
-## ✨ Contributors
+## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 

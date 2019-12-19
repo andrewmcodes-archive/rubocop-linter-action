@@ -1,12 +1,3 @@
-# Configuration
-
-We use a configuration file to configure the action. This allows us to have a very clean action, and minimize problems when using GitHub Action inputs. You do not have to have a config file if you want to use the base settings, but if you want to customize the action, you will need to add one. You can specify where the config lives by using the inputs, but it will default to `.github/config/rubocop_linter_action.yml` if it is not specified.
-
-## Documentation
-
-```yml
-# .github/config/rubocop_linter_action.yml
-
 # Description: The name of the check that will be created.
 # Valid Options: A reasonably sized string.
 # Default: 'Rubocop Action'
@@ -59,30 +50,3 @@ bundle: false
 # Valid options: 'modified'
 # Default: nil
 check_scope: 'modified'
-```
-
-## Example
-
-```yml
-# .github/config/rubocop_linter_action.yml
-
-rubocop_version: 'latest'
-rubocop_extensions:
-  - 'rubocop-rails'
-  - 'rubocop-performance': '1.5.1'
-  - 'rubocop-minitest': 'latest'
-  - 'rubocop-rspec': '1.37.0'
-```
-
-
-## Version Constraints
-
-It is **highly** recommend you tie yourself to a version and do not do the following. I promise your life will be much easier. 😇
-
-```yml
-# ❌ Danger, sometimes I break things!
-uses: andrewmcodes/rubocop-linter-action@master
-
-# ✅ Much better.
-uses: andrewmcodes/rubocop-linter-action@v2.0.0
-```

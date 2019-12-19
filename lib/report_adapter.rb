@@ -18,7 +18,7 @@ class ReportAdapter
     end
 
     def summary(report)
-      "#{total_offenses(report)} offense(s) found"
+      "#{total_offenses(report)} offense(s) found."
     end
 
     def annotations(report) # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
