@@ -13,12 +13,11 @@
 <!-- End Variables -->
 
 ![Rubocop Linter Action][logo]
+
+![Version Number](https://img.shields.io/static/v1?label=Version&message=v3.0.0.rc2&color=blue)
 ![Linters](https://github.com/andrewmcodes/rubocop-linter-action/workflows/Linters/badge.svg)
 ![Tests](https://github.com/andrewmcodes/rubocop-linter-action/workflows/Test/badge.svg)
 [![Changelog](https://github.com/andrewmcodes/rubocop-linter-action/workflows/Changelog/badge.svg)][changelog]
-![Build](https://github.com/andrewmcodes/rubocop-linter-action/workflows/Build/badge.svg)
-
-![Version Number](https://img.shields.io/static/v1?label=Version&message=v3.0.0.rc2&color=blue)
 [![Documentation Status](https://readthedocs.org/projects/rubocop-linter-action/badge/?version=latest)](https://rubocop-linter-action.readthedocs.io/en/latest/?badge=latest)
 [![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors)
 
