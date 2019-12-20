@@ -23,13 +23,13 @@
 
 # Rubocop Linter Action
 
-A GitHub Action to run [Rubocop](https://github.com/rubocop-hq/rubocop) against your codebase and output the results in the [GitHub Checks UI](https://developer.github.com/changes/2018-05-07-new-checks-api-public-beta/).
+Rubocop Linter Action is a GitHub Action to run [Rubocop](https://github.com/rubocop-hq/rubocop) against your Ruby codebase and output the results in the [GitHub Checks UI](https://developer.github.com/changes/2018-05-07-new-checks-api-public-beta/).
 
 ## Introduction
 
-GitHub Actions are an amazing new tool that can dramatically improve productivity while using the GitHub platform. While it is not hard to write a custom GitHub action to run Rubocop on your codebase, this action takes that functionality one step further using the checks API. After the Rubocop Linter Action runs Rubocop against your code, it will create annotations that you can easily view, matched up with the offending code.
+This GitHub Action provides a way to easily run Rubocop on your Ruby or Ruby on Rails project. While it is possible to write a custom GitHub Action to run Rubocop on your codebase, this action takes that functionality one step further using the Checks API. After the Rubocop Linter Action runs Rubocop against your Ruby code, it will create annotations that you can easily view in the GitHub UI, matched up with the offending code.
 
-Since GitHub actions and the checks API are continually changing, it is possible that there will be breaking API changes that affect this action. If so, please open an issue and I will look into it as soon as I can.
+Since GitHub Actions and the Checks API are continually changing, it is possible that there will be breaking API changes that affect this action. If so, please open an issue and we will look into it as soon as we can. Thank you for using this project! :heart:
 
 ## Usage
 
