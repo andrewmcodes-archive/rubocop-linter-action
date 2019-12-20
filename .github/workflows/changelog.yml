@@ -7,16 +7,24 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 4
     steps:
     - uses: actions/checkout@master
     - name: Set up Ruby 2.6
       uses: actions/setup-ruby@v1
       with:
         ruby-version: 2.6.x
+    - uses: actions/cache@v1.0.3
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gem-
     - name: Create local changes
       run: |
-        gem install bundler:2.0.2
-        bundle install
+        gem install bundler
+        bundle config path vendor/bundle
+        bundle install --jobs 4 --retry 3
         github_changelog_generator -u andrewmcodes -p rubocop-linter-action --token ${{ secrets.GITHUB_TOKEN }}
     - name: Commit files
       run: |
