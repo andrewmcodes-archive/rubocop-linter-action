@@ -2,7 +2,7 @@
 
 module Github
   class CheckRunService
-    attr_reader :report, :github_data, :report_adapter, :check_name
+    attr_reader :report, :github_data, :report_adapter, :check_name, :results
 
     def initialize(report: nil, github_data: nil, report_adapter: nil, check_name: nil)
       @report = report
@@ -17,6 +17,8 @@ module Github
         create_check_payload
       )['id']
 
+      @results = report.build
+
       client.patch(
         "#{endpoint_url}/#{id}",
         update_check_payload
@@ -30,15 +32,15 @@ module Github
     end
 
     def summary
-      report_adapter.summary(report)
+      report_adapter.summary(results)
     end
 
     def annotations
-      report_adapter.annotations(report)
+      report_adapter.annotations(results)
     end
 
     def conclusion
-      report_adapter.conclusion(report)
+      report_adapter.conclusion(results)
     end
 
     def endpoint_url
