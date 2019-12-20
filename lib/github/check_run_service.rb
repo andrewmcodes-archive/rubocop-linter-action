@@ -18,11 +18,16 @@ module Github
       )['id']
 
       @results = report.build
+      
+      last_result = nil
+      annotations.each_slice(48) do |annotations_slice|
+        last_result = client.patch(
+          "#{endpoint_url}/#{id}",
+          update_check_payload(annotations_slice)
+        )
+      end
 
-      client.patch(
-        "#{endpoint_url}/#{id}",
-        update_check_payload
-      )
+      last_result
     end
 
     private
@@ -60,7 +65,7 @@ module Github
       base_payload('in_progress')
     end
 
-    def update_check_payload
+    def update_check_payload(annotations)
       base_payload('completed').merge!(
         conclusion: conclusion,
         output: {

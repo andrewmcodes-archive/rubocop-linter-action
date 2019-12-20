@@ -21,14 +21,9 @@ class ReportAdapter
       "#{total_offenses(report)} offense(s) found."
     end
 
-    def annotations(report) # rubocop:disable Metrics/AbcSize, Metrics/MethodLength, Metrics/CyclomaticComplexity, Metrics/PerceivedComplexity
-      annotation_list = []
-      count = 0
-      report['files'].each do |file|
+    def annotations(report) # rubocop:disable Metrics/AbcSize, Metrics/MethodLength
+      report['files'].each_with_object([]) do |file, annotation_list|
         file['offenses'].each do |offense|
-          count += 1
-          return annotation_list if count == 48
-
           location = offense['location']
           same_line = location['start_line'] == location['last_line']
           has_columns = location['start_column'] && location['end_column']
@@ -48,7 +43,6 @@ class ReportAdapter
           )
         end
       end
-      annotation_list
     end
 
     private
