@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/andrewmcodes/rubocop-linter-action/tree/HEAD)
+## [v3.0.0.rc2](https://github.com/andrewmcodes/rubocop-linter-action/tree/v3.0.0.rc2) (2019-12-20)
 
-[Full Changelog](https://github.com/andrewmcodes/rubocop-linter-action/compare/v3.0.0.rc1...HEAD)
+[Full Changelog](https://github.com/andrewmcodes/rubocop-linter-action/compare/v3.0.0.rc1...v3.0.0.rc2)
 
 **Merged pull requests:**
 
