@@ -7,6 +7,7 @@
 **Merged pull requests:**
 
 - Update build action [\#86](https://github.com/andrewmcodes/rubocop-linter-action/pull/86) ([andrewmcodes](https://github.com/andrewmcodes))
+- Work around 50-annotation limit by making multiple update calls [\#85](https://github.com/andrewmcodes/rubocop-linter-action/pull/85) ([reidab](https://github.com/reidab))
 - Ensure start\_column comes before end\_column [\#84](https://github.com/andrewmcodes/rubocop-linter-action/pull/84) ([reidab](https://github.com/reidab))
 - Create initial GitHub check before running rubocop [\#83](https://github.com/andrewmcodes/rubocop-linter-action/pull/83) ([reidab](https://github.com/reidab))
 
@@ -60,7 +61,7 @@
 
 - v2.0.0 release [\#60](https://github.com/andrewmcodes/rubocop-linter-action/pull/60) ([andrewmcodes](https://github.com/andrewmcodes))
 - prep for v2.0 release [\#59](https://github.com/andrewmcodes/rubocop-linter-action/pull/59) ([andrewmcodes](https://github.com/andrewmcodes))
-- Add additional input params [\#53](https://github.com/andrewmcodes/rubocop-linter-action/pull/53) ([chiefpansancolt](https://github.com/chiefpansancolt))
+- Bash script fixes [\#55](https://github.com/andrewmcodes/rubocop-linter-action/pull/55) ([bbugh](https://github.com/bbugh))
 
 ## [v1.0.6](https://github.com/andrewmcodes/rubocop-linter-action/tree/v1.0.6) (2019-11-22)
 
@@ -87,6 +88,7 @@
 **Merged pull requests:**
 
 - version bump to v1.0.5 [\#54](https://github.com/andrewmcodes/rubocop-linter-action/pull/54) ([andrewmcodes](https://github.com/andrewmcodes))
+- Add additional input params [\#53](https://github.com/andrewmcodes/rubocop-linter-action/pull/53) ([chiefpansancolt](https://github.com/chiefpansancolt))
 
 ## [v1.0.4](https://github.com/andrewmcodes/rubocop-linter-action/tree/v1.0.4) (2019-11-15)
 
