@@ -4,12 +4,17 @@
 
 [Full Changelog](https://github.com/andrewmcodes/rubocop-linter-action/compare/v3.0.0.rc2...HEAD)
 
+**Implemented enhancements:**
+
+- Specify RuboCop version and its extensions using the same configuration key [\#93](https://github.com/andrewmcodes/rubocop-linter-action/issues/93)
+
 **Fixed bugs:**
 
 - Action breaks if RuboCop check outputs a start\_column value greater than the last\_column for the line [\#91](https://github.com/andrewmcodes/rubocop-linter-action/issues/91)
 
 **Merged pull requests:**
 
+- Enhanced dependency configuration and resolution [\#95](https://github.com/andrewmcodes/rubocop-linter-action/pull/95) ([erichmachado](https://github.com/erichmachado))
 - docs: add erichmachado as a contributor [\#94](https://github.com/andrewmcodes/rubocop-linter-action/pull/94) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - ReportAdapter\#column\_check correctly parses the last\_column value [\#92](https://github.com/andrewmcodes/rubocop-linter-action/pull/92) ([erichmachado](https://github.com/erichmachado))
 
@@ -30,10 +35,6 @@
 
 [Full Changelog](https://github.com/andrewmcodes/rubocop-linter-action/compare/v2.0.1...v3.0.0.rc1)
 
-**Implemented enhancements:**
-
-- Configuration File [\#75](https://github.com/andrewmcodes/rubocop-linter-action/pull/75) ([andrewmcodes](https://github.com/andrewmcodes))
-
 **Merged pull requests:**
 
 - version 3.0.0.rc1 release [\#82](https://github.com/andrewmcodes/rubocop-linter-action/pull/82) ([andrewmcodes](https://github.com/andrewmcodes))
@@ -42,6 +43,10 @@
 ## [v2.0.1](https://github.com/andrewmcodes/rubocop-linter-action/tree/v2.0.1) (2019-12-18)
 
 [Full Changelog](https://github.com/andrewmcodes/rubocop-linter-action/compare/v2.0.0...v2.0.1)
+
+**Implemented enhancements:**
+
+- Configuration File [\#75](https://github.com/andrewmcodes/rubocop-linter-action/pull/75) ([andrewmcodes](https://github.com/andrewmcodes))
 
 **Fixed bugs:**
 
