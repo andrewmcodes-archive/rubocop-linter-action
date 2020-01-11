@@ -14,6 +14,7 @@
 
 **Merged pull requests:**
 
+- issue 96 exploration [\#99](https://github.com/andrewmcodes/rubocop-linter-action/pull/99) ([andrewmcodes](https://github.com/andrewmcodes))
 - tweak the way we read the config file [\#98](https://github.com/andrewmcodes/rubocop-linter-action/pull/98) ([andrewmcodes](https://github.com/andrewmcodes))
 - Enhanced dependency configuration and resolution [\#95](https://github.com/andrewmcodes/rubocop-linter-action/pull/95) ([erichmachado](https://github.com/erichmachado))
 - docs: add erichmachado as a contributor [\#94](https://github.com/andrewmcodes/rubocop-linter-action/pull/94) ([allcontributors[bot]](https://github.com/apps/allcontributors))
