@@ -14,6 +14,7 @@
 
 **Merged pull requests:**
 
+- Add documentation around what will happen if the action is triggered by a pr from a forked repo [\#100](https://github.com/andrewmcodes/rubocop-linter-action/pull/100) ([andrewmcodes](https://github.com/andrewmcodes))
 - issue 96 exploration [\#99](https://github.com/andrewmcodes/rubocop-linter-action/pull/99) ([andrewmcodes](https://github.com/andrewmcodes))
 - tweak the way we read the config file [\#98](https://github.com/andrewmcodes/rubocop-linter-action/pull/98) ([andrewmcodes](https://github.com/andrewmcodes))
 - Enhanced dependency configuration and resolution [\#95](https://github.com/andrewmcodes/rubocop-linter-action/pull/95) ([erichmachado](https://github.com/erichmachado))
