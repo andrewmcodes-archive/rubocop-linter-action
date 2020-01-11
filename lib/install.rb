@@ -1,44 +1,42 @@
 # frozen_string_literal: true
 
 class Install
+  DEFAULT_DEPENDENCIES = {
+    "rubocop" => "latest"
+  }.freeze
+
   attr_reader :config
+
   def initialize(config)
-    @config = config
+    @config = Hash(config)
   end
 
   def run
-    return system("gem install rubocop") unless config
+    return system("bundle install") if config.fetch("bundle", false)
 
-    install_gems
+    system("gem install #{dependencies}")
   end
 
   private
 
-  def install_gems
-    return system("bundle install") if config.fetch("bundle", false)
-
-    system("gem install #{rubocop} #{extensions}")
+  def dependencies
+    DEFAULT_DEPENDENCIES.merge(custom_dependencies).map(&method(:version_string)).join(" ")
   end
 
-  def rubocop
-    version = config.fetch("rubocop_version", "latest")
-    return "rubocop" if version == "latest"
-
-    "rubocop:#{version}"
+  def custom_dependencies
+    Hash[config.fetch("versions", []).map(&method(:version))]
   end
 
-  def extensions
-    extensions = config.fetch("rubocop_extensions", [])
-    command = []
-    extensions.each do |gem|
-      if gem.is_a? String
-        command << gem
-      else
-        gem_name = gem.keys.first
-        gem_version = gem.values.first
-        command << "#{gem_name}#{gem_version == 'latest' ? '' : ":#{gem_version}"}"
-      end
+  def version(dependency)
+    case dependency
+    when Hash
+      dependency.first
+    else
+      [dependency, "latest"]
     end
-    command.join(" ")
+  end
+
+  def version_string(dependency, version)
+    version == "latest" ? dependency : "#{dependency}:#{version}"
   end
 end
