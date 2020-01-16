@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- upgrade to ruby 2.7 [\#102](https://github.com/andrewmcodes/rubocop-linter-action/pull/102) ([andrewmcodes](https://github.com/andrewmcodes))
 - try to prevent infinite runs [\#101](https://github.com/andrewmcodes/rubocop-linter-action/pull/101) ([andrewmcodes](https://github.com/andrewmcodes))
 
 ## [v3.0.0.rc3](https://github.com/andrewmcodes/rubocop-linter-action/tree/v3.0.0.rc3) (2020-01-11)
