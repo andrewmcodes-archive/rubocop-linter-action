@@ -2,7 +2,19 @@
 
 ## [Unreleased](https://github.com/andrewmcodes/rubocop-linter-action/tree/HEAD)
 
-[Full Changelog](https://github.com/andrewmcodes/rubocop-linter-action/compare/v3.0.0.rc3...HEAD)
+[Full Changelog](https://github.com/andrewmcodes/rubocop-linter-action/compare/v3.0.0.rc4...HEAD)
+
+**Fixed bugs:**
+
+- Rubocop Results action is running forever [\#96](https://github.com/andrewmcodes/rubocop-linter-action/issues/96)
+
+**Merged pull requests:**
+
+- docs: add seerahulsingh as a contributor [\#104](https://github.com/andrewmcodes/rubocop-linter-action/pull/104) ([allcontributors[bot]](https://github.com/apps/allcontributors))
+
+## [v3.0.0.rc4](https://github.com/andrewmcodes/rubocop-linter-action/tree/v3.0.0.rc4) (2020-01-16)
+
+[Full Changelog](https://github.com/andrewmcodes/rubocop-linter-action/compare/v3.0.0.rc3...v3.0.0.rc4)
 
 **Merged pull requests:**
 
@@ -56,6 +68,7 @@
 
 - version 3.0.0.rc1 release [\#82](https://github.com/andrewmcodes/rubocop-linter-action/pull/82) ([andrewmcodes](https://github.com/andrewmcodes))
 - docs: add excid3 as a contributor [\#81](https://github.com/andrewmcodes/rubocop-linter-action/pull/81) ([allcontributors[bot]](https://github.com/apps/allcontributors))
+- add documentation for readthedocs [\#77](https://github.com/andrewmcodes/rubocop-linter-action/pull/77) ([andrewmcodes](https://github.com/andrewmcodes))
 
 ## [v2.0.1](https://github.com/andrewmcodes/rubocop-linter-action/tree/v2.0.1) (2019-12-18)
 
@@ -77,7 +90,6 @@
 - fix image address for readthedocs index [\#80](https://github.com/andrewmcodes/rubocop-linter-action/pull/80) ([andrewmcodes](https://github.com/andrewmcodes))
 - add readthedocs config [\#79](https://github.com/andrewmcodes/rubocop-linter-action/pull/79) ([andrewmcodes](https://github.com/andrewmcodes))
 - version 2.0.1 release [\#78](https://github.com/andrewmcodes/rubocop-linter-action/pull/78) ([andrewmcodes](https://github.com/andrewmcodes))
-- add documentation for readthedocs [\#77](https://github.com/andrewmcodes/rubocop-linter-action/pull/77) ([andrewmcodes](https://github.com/andrewmcodes))
 - docs: add hackerdude as a contributor [\#76](https://github.com/andrewmcodes/rubocop-linter-action/pull/76) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - only push to the playground repo on push [\#74](https://github.com/andrewmcodes/rubocop-linter-action/pull/74) ([andrewmcodes](https://github.com/andrewmcodes))
 - fix obsolete configuration error in rubocop config [\#73](https://github.com/andrewmcodes/rubocop-linter-action/pull/73) ([andrewmcodes](https://github.com/andrewmcodes))
@@ -142,7 +154,6 @@
 - Add cop name to report messages [\#49](https://github.com/andrewmcodes/rubocop-linter-action/pull/49) ([bbugh](https://github.com/bbugh))
 - Use 'notice' annotation style for refactor + convention offenses [\#46](https://github.com/andrewmcodes/rubocop-linter-action/pull/46) ([reidab](https://github.com/reidab))
 - add changelog generator [\#44](https://github.com/andrewmcodes/rubocop-linter-action/pull/44) ([andrewmcodes](https://github.com/andrewmcodes))
-- Update issue templates [\#39](https://github.com/andrewmcodes/rubocop-linter-action/pull/39) ([andrewmcodes](https://github.com/andrewmcodes))
 
 ## [v1.0.3](https://github.com/andrewmcodes/rubocop-linter-action/tree/v1.0.3) (2019-11-07)
 
@@ -156,6 +167,7 @@
 
 - v1.0.3 version bump [\#42](https://github.com/andrewmcodes/rubocop-linter-action/pull/42) ([andrewmcodes](https://github.com/andrewmcodes))
 - only send GitHub offenses instead of entire json output [\#41](https://github.com/andrewmcodes/rubocop-linter-action/pull/41) ([andrewmcodes](https://github.com/andrewmcodes))
+- Update issue templates [\#39](https://github.com/andrewmcodes/rubocop-linter-action/pull/39) ([andrewmcodes](https://github.com/andrewmcodes))
 
 ## [v1.0.2](https://github.com/andrewmcodes/rubocop-linter-action/tree/v1.0.2) (2019-11-07)
 
