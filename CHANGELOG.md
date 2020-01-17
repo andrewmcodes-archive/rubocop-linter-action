@@ -10,6 +10,7 @@
 
 **Merged pull requests:**
 
+- change example workflow to use actions/checkout@v1 [\#107](https://github.com/andrewmcodes/rubocop-linter-action/pull/107) ([andrewmcodes](https://github.com/andrewmcodes))
 - docs: add seerahulsingh as a contributor [\#104](https://github.com/andrewmcodes/rubocop-linter-action/pull/104) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 
 ## [v3.0.0.rc4](https://github.com/andrewmcodes/rubocop-linter-action/tree/v3.0.0.rc4) (2020-01-16)
@@ -68,7 +69,6 @@
 
 - version 3.0.0.rc1 release [\#82](https://github.com/andrewmcodes/rubocop-linter-action/pull/82) ([andrewmcodes](https://github.com/andrewmcodes))
 - docs: add excid3 as a contributor [\#81](https://github.com/andrewmcodes/rubocop-linter-action/pull/81) ([allcontributors[bot]](https://github.com/apps/allcontributors))
-- add documentation for readthedocs [\#77](https://github.com/andrewmcodes/rubocop-linter-action/pull/77) ([andrewmcodes](https://github.com/andrewmcodes))
 
 ## [v2.0.1](https://github.com/andrewmcodes/rubocop-linter-action/tree/v2.0.1) (2019-12-18)
 
@@ -90,6 +90,7 @@
 - fix image address for readthedocs index [\#80](https://github.com/andrewmcodes/rubocop-linter-action/pull/80) ([andrewmcodes](https://github.com/andrewmcodes))
 - add readthedocs config [\#79](https://github.com/andrewmcodes/rubocop-linter-action/pull/79) ([andrewmcodes](https://github.com/andrewmcodes))
 - version 2.0.1 release [\#78](https://github.com/andrewmcodes/rubocop-linter-action/pull/78) ([andrewmcodes](https://github.com/andrewmcodes))
+- add documentation for readthedocs [\#77](https://github.com/andrewmcodes/rubocop-linter-action/pull/77) ([andrewmcodes](https://github.com/andrewmcodes))
 - docs: add hackerdude as a contributor [\#76](https://github.com/andrewmcodes/rubocop-linter-action/pull/76) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - only push to the playground repo on push [\#74](https://github.com/andrewmcodes/rubocop-linter-action/pull/74) ([andrewmcodes](https://github.com/andrewmcodes))
 - fix obsolete configuration error in rubocop config [\#73](https://github.com/andrewmcodes/rubocop-linter-action/pull/73) ([andrewmcodes](https://github.com/andrewmcodes))
