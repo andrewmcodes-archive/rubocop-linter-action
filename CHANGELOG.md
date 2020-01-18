@@ -11,7 +11,6 @@
 - add codecov and binstub helpers [\#112](https://github.com/andrewmcodes/rubocop-linter-action/pull/112) ([andrewmcodes](https://github.com/andrewmcodes))
 - update playground location [\#111](https://github.com/andrewmcodes/rubocop-linter-action/pull/111) ([andrewmcodes](https://github.com/andrewmcodes))
 - \[ci-skip\] add ci-skip option for actions [\#110](https://github.com/andrewmcodes/rubocop-linter-action/pull/110) ([andrewmcodes](https://github.com/andrewmcodes))
-- update the dates in the license [\#109](https://github.com/andrewmcodes/rubocop-linter-action/pull/109) ([andrewmcodes](https://github.com/andrewmcodes))
 - update issue templates [\#108](https://github.com/andrewmcodes/rubocop-linter-action/pull/108) ([andrewmcodes](https://github.com/andrewmcodes))
 
 **Fixed bugs:**
@@ -20,12 +19,17 @@
 
 **Merged pull requests:**
 
+- update codecov integration [\#115](https://github.com/andrewmcodes/rubocop-linter-action/pull/115) ([andrewmcodes](https://github.com/andrewmcodes))
 - change example workflow to use actions/checkout@v1 [\#107](https://github.com/andrewmcodes/rubocop-linter-action/pull/107) ([andrewmcodes](https://github.com/andrewmcodes))
 - docs: add seerahulsingh as a contributor [\#104](https://github.com/andrewmcodes/rubocop-linter-action/pull/104) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 
 ## [v3.0.0.rc4](https://github.com/andrewmcodes/rubocop-linter-action/tree/v3.0.0.rc4) (2020-01-16)
 
 [Full Changelog](https://github.com/andrewmcodes/rubocop-linter-action/compare/v3.0.0.rc3...v3.0.0.rc4)
+
+**Implemented enhancements:**
+
+- update the dates in the license [\#109](https://github.com/andrewmcodes/rubocop-linter-action/pull/109) ([andrewmcodes](https://github.com/andrewmcodes))
 
 **Merged pull requests:**
 
@@ -165,7 +169,6 @@
 - Add cop name to report messages [\#49](https://github.com/andrewmcodes/rubocop-linter-action/pull/49) ([bbugh](https://github.com/bbugh))
 - Use 'notice' annotation style for refactor + convention offenses [\#46](https://github.com/andrewmcodes/rubocop-linter-action/pull/46) ([reidab](https://github.com/reidab))
 - add changelog generator [\#44](https://github.com/andrewmcodes/rubocop-linter-action/pull/44) ([andrewmcodes](https://github.com/andrewmcodes))
-- v1.0.3 version bump [\#42](https://github.com/andrewmcodes/rubocop-linter-action/pull/42) ([andrewmcodes](https://github.com/andrewmcodes))
 
 ## [v1.0.3](https://github.com/andrewmcodes/rubocop-linter-action/tree/v1.0.3) (2019-11-07)
 
@@ -177,6 +180,7 @@
 
 **Merged pull requests:**
 
+- v1.0.3 version bump [\#42](https://github.com/andrewmcodes/rubocop-linter-action/pull/42) ([andrewmcodes](https://github.com/andrewmcodes))
 - only send GitHub offenses instead of entire json output [\#41](https://github.com/andrewmcodes/rubocop-linter-action/pull/41) ([andrewmcodes](https://github.com/andrewmcodes))
 - Update issue templates [\#39](https://github.com/andrewmcodes/rubocop-linter-action/pull/39) ([andrewmcodes](https://github.com/andrewmcodes))
 
@@ -234,6 +238,7 @@
 - Release v1.0.0 [\#26](https://github.com/andrewmcodes/rubocop-linter-action/pull/26) ([andrewmcodes](https://github.com/andrewmcodes))
 - docs: add mcgregordan as a contributor [\#25](https://github.com/andrewmcodes/rubocop-linter-action/pull/25) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - docs: add andrewmcodes as a contributor [\#24](https://github.com/andrewmcodes/rubocop-linter-action/pull/24) ([allcontributors[bot]](https://github.com/apps/allcontributors))
+- docs: add MiguelSavignano as a contributor [\#23](https://github.com/andrewmcodes/rubocop-linter-action/pull/23) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - update docs [\#22](https://github.com/andrewmcodes/rubocop-linter-action/pull/22) ([andrewmcodes](https://github.com/andrewmcodes))
 - add rspec and rubocop binstubs, and lint the project [\#21](https://github.com/andrewmcodes/rubocop-linter-action/pull/21) ([andrewmcodes](https://github.com/andrewmcodes))
 - Refactor/files structure [\#20](https://github.com/andrewmcodes/rubocop-linter-action/pull/20) ([MiguelSavignano](https://github.com/MiguelSavignano))
@@ -252,7 +257,6 @@
 
 **Merged pull requests:**
 
-- docs: add MiguelSavignano as a contributor [\#23](https://github.com/andrewmcodes/rubocop-linter-action/pull/23) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - Fix instructions [\#13](https://github.com/andrewmcodes/rubocop-linter-action/pull/13) ([mcgregordan](https://github.com/mcgregordan))
 
 ## [v0.1.2](https://github.com/andrewmcodes/rubocop-linter-action/tree/v0.1.2) (2019-09-03)
