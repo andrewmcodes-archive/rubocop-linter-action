@@ -4,12 +4,18 @@
 
 [Full Changelog](https://github.com/andrewmcodes/rubocop-linter-action/compare/v3.0.0.rc4...HEAD)
 
+**Implemented enhancements:**
+
+- update the dates in the license [\#109](https://github.com/andrewmcodes/rubocop-linter-action/pull/109) ([andrewmcodes](https://github.com/andrewmcodes))
+- update issue templates [\#108](https://github.com/andrewmcodes/rubocop-linter-action/pull/108) ([andrewmcodes](https://github.com/andrewmcodes))
+
 **Fixed bugs:**
 
 - Rubocop Results action is running forever [\#96](https://github.com/andrewmcodes/rubocop-linter-action/issues/96)
 
 **Merged pull requests:**
 
+- \[ci-skip\] add ci-skip option for actions [\#110](https://github.com/andrewmcodes/rubocop-linter-action/pull/110) ([andrewmcodes](https://github.com/andrewmcodes))
 - change example workflow to use actions/checkout@v1 [\#107](https://github.com/andrewmcodes/rubocop-linter-action/pull/107) ([andrewmcodes](https://github.com/andrewmcodes))
 - docs: add seerahulsingh as a contributor [\#104](https://github.com/andrewmcodes/rubocop-linter-action/pull/104) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 
@@ -22,6 +28,7 @@
 - version 3.0.0.rc4 release [\#103](https://github.com/andrewmcodes/rubocop-linter-action/pull/103) ([andrewmcodes](https://github.com/andrewmcodes))
 - upgrade to ruby 2.7 [\#102](https://github.com/andrewmcodes/rubocop-linter-action/pull/102) ([andrewmcodes](https://github.com/andrewmcodes))
 - try to prevent infinite runs [\#101](https://github.com/andrewmcodes/rubocop-linter-action/pull/101) ([andrewmcodes](https://github.com/andrewmcodes))
+- ReportAdapter\#column\_check correctly parses the last\_column value [\#92](https://github.com/andrewmcodes/rubocop-linter-action/pull/92) ([erichmachado](https://github.com/erichmachado))
 
 ## [v3.0.0.rc3](https://github.com/andrewmcodes/rubocop-linter-action/tree/v3.0.0.rc3) (2020-01-11)
 
@@ -42,7 +49,6 @@
 - tweak the way we read the config file [\#98](https://github.com/andrewmcodes/rubocop-linter-action/pull/98) ([andrewmcodes](https://github.com/andrewmcodes))
 - Enhanced dependency configuration and resolution [\#95](https://github.com/andrewmcodes/rubocop-linter-action/pull/95) ([erichmachado](https://github.com/erichmachado))
 - docs: add erichmachado as a contributor [\#94](https://github.com/andrewmcodes/rubocop-linter-action/pull/94) ([allcontributors[bot]](https://github.com/apps/allcontributors))
-- ReportAdapter\#column\_check correctly parses the last\_column value [\#92](https://github.com/andrewmcodes/rubocop-linter-action/pull/92) ([erichmachado](https://github.com/erichmachado))
 
 ## [v3.0.0.rc2](https://github.com/andrewmcodes/rubocop-linter-action/tree/v3.0.0.rc2) (2019-12-20)
 
