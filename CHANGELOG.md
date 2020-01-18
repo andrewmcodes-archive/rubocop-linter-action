@@ -6,6 +6,8 @@
 
 **Implemented enhancements:**
 
+- add pull\_request action [\#113](https://github.com/andrewmcodes/rubocop-linter-action/pull/113) ([andrewmcodes](https://github.com/andrewmcodes))
+- add codecov and binstub helpers [\#112](https://github.com/andrewmcodes/rubocop-linter-action/pull/112) ([andrewmcodes](https://github.com/andrewmcodes))
 - update playground location [\#111](https://github.com/andrewmcodes/rubocop-linter-action/pull/111) ([andrewmcodes](https://github.com/andrewmcodes))
 - \[ci-skip\] add ci-skip option for actions [\#110](https://github.com/andrewmcodes/rubocop-linter-action/pull/110) ([andrewmcodes](https://github.com/andrewmcodes))
 - update the dates in the license [\#109](https://github.com/andrewmcodes/rubocop-linter-action/pull/109) ([andrewmcodes](https://github.com/andrewmcodes))
