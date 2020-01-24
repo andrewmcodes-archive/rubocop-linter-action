@@ -4,6 +4,10 @@
 
 [Full Changelog](https://github.com/andrewmcodes/rubocop-linter-action/compare/v3.0.0.rc4...HEAD)
 
+**Breaking changes:**
+
+- release v3.0.0 [\#120](https://github.com/andrewmcodes/rubocop-linter-action/pull/120) ([andrewmcodes](https://github.com/andrewmcodes))
+
 **Implemented enhancements:**
 
 - document the behavior of check\_scope on commits to master [\#119](https://github.com/andrewmcodes/rubocop-linter-action/pull/119) ([andrewmcodes](https://github.com/andrewmcodes))
@@ -52,7 +56,6 @@
 - Add documentation around what will happen if the action is triggered by a pr from a forked repo [\#100](https://github.com/andrewmcodes/rubocop-linter-action/pull/100) ([andrewmcodes](https://github.com/andrewmcodes))
 - issue 96 exploration [\#99](https://github.com/andrewmcodes/rubocop-linter-action/pull/99) ([andrewmcodes](https://github.com/andrewmcodes))
 - tweak the way we read the config file [\#98](https://github.com/andrewmcodes/rubocop-linter-action/pull/98) ([andrewmcodes](https://github.com/andrewmcodes))
-- Enhanced dependency configuration and resolution [\#95](https://github.com/andrewmcodes/rubocop-linter-action/pull/95) ([erichmachado](https://github.com/erichmachado))
 - docs: add erichmachado as a contributor [\#94](https://github.com/andrewmcodes/rubocop-linter-action/pull/94) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - ReportAdapter\#column\_check correctly parses the last\_column value [\#92](https://github.com/andrewmcodes/rubocop-linter-action/pull/92) ([erichmachado](https://github.com/erichmachado))
 
@@ -62,6 +65,7 @@
 
 **Merged pull requests:**
 
+- Enhanced dependency configuration and resolution [\#95](https://github.com/andrewmcodes/rubocop-linter-action/pull/95) ([erichmachado](https://github.com/erichmachado))
 - v3.0.0.rc2 release [\#89](https://github.com/andrewmcodes/rubocop-linter-action/pull/89) ([andrewmcodes](https://github.com/andrewmcodes))
 - refactor and update docs [\#88](https://github.com/andrewmcodes/rubocop-linter-action/pull/88) ([andrewmcodes](https://github.com/andrewmcodes))
 - Update build action [\#86](https://github.com/andrewmcodes/rubocop-linter-action/pull/86) ([andrewmcodes](https://github.com/andrewmcodes))
@@ -107,6 +111,7 @@
 - only push to the playground repo on push [\#74](https://github.com/andrewmcodes/rubocop-linter-action/pull/74) ([andrewmcodes](https://github.com/andrewmcodes))
 - fix obsolete configuration error in rubocop config [\#73](https://github.com/andrewmcodes/rubocop-linter-action/pull/73) ([andrewmcodes](https://github.com/andrewmcodes))
 - Bugfix/respect rubocop level [\#72](https://github.com/andrewmcodes/rubocop-linter-action/pull/72) ([hackerdude](https://github.com/hackerdude))
+- Fix version reference in README [\#65](https://github.com/andrewmcodes/rubocop-linter-action/pull/65) ([eregon](https://github.com/eregon))
 - docs: add InteNs as a contributor [\#62](https://github.com/andrewmcodes/rubocop-linter-action/pull/62) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - docs: add chiefpansancolt as a contributor [\#61](https://github.com/andrewmcodes/rubocop-linter-action/pull/61) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 
@@ -116,7 +121,6 @@
 
 **Merged pull requests:**
 
-- Fix version reference in README [\#65](https://github.com/andrewmcodes/rubocop-linter-action/pull/65) ([eregon](https://github.com/eregon))
 - v2.0.0 release [\#60](https://github.com/andrewmcodes/rubocop-linter-action/pull/60) ([andrewmcodes](https://github.com/andrewmcodes))
 - prep for v2.0 release [\#59](https://github.com/andrewmcodes/rubocop-linter-action/pull/59) ([andrewmcodes](https://github.com/andrewmcodes))
 
