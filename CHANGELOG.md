@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/andrewmcodes/rubocop-linter-action/tree/HEAD)
+## [v3.0.0](https://github.com/andrewmcodes/rubocop-linter-action/tree/v3.0.0) (2020-01-24)
 
-[Full Changelog](https://github.com/andrewmcodes/rubocop-linter-action/compare/v3.0.0.rc4...HEAD)
+[Full Changelog](https://github.com/andrewmcodes/rubocop-linter-action/compare/v3.0.0.rc4...v3.0.0)
 
 **Breaking changes:**
 
@@ -18,16 +18,25 @@
 - \[ci-skip\] add ci-skip option for actions [\#110](https://github.com/andrewmcodes/rubocop-linter-action/pull/110) ([andrewmcodes](https://github.com/andrewmcodes))
 - update the dates in the license [\#109](https://github.com/andrewmcodes/rubocop-linter-action/pull/109) ([andrewmcodes](https://github.com/andrewmcodes))
 - update issue templates [\#108](https://github.com/andrewmcodes/rubocop-linter-action/pull/108) ([andrewmcodes](https://github.com/andrewmcodes))
+- Configuration File [\#75](https://github.com/andrewmcodes/rubocop-linter-action/pull/75) ([andrewmcodes](https://github.com/andrewmcodes))
 
 **Fixed bugs:**
 
 - Rubocop Results action is running forever [\#96](https://github.com/andrewmcodes/rubocop-linter-action/issues/96)
+
+**Closed issues:**
+
+- Lint changed files only instead [\#70](https://github.com/andrewmcodes/rubocop-linter-action/issues/70)
 
 **Merged pull requests:**
 
 - update codecov integration [\#115](https://github.com/andrewmcodes/rubocop-linter-action/pull/115) ([andrewmcodes](https://github.com/andrewmcodes))
 - change example workflow to use actions/checkout@v1 [\#107](https://github.com/andrewmcodes/rubocop-linter-action/pull/107) ([andrewmcodes](https://github.com/andrewmcodes))
 - docs: add seerahulsingh as a contributor [\#104](https://github.com/andrewmcodes/rubocop-linter-action/pull/104) ([allcontributors[bot]](https://github.com/apps/allcontributors))
+- Work around 50-annotation limit by making multiple update calls [\#85](https://github.com/andrewmcodes/rubocop-linter-action/pull/85) ([reidab](https://github.com/reidab))
+- Ensure start\_column comes before end\_column [\#84](https://github.com/andrewmcodes/rubocop-linter-action/pull/84) ([reidab](https://github.com/reidab))
+- Create initial GitHub check before running rubocop [\#83](https://github.com/andrewmcodes/rubocop-linter-action/pull/83) ([reidab](https://github.com/reidab))
+- version 3.0.0.rc1 release [\#82](https://github.com/andrewmcodes/rubocop-linter-action/pull/82) ([andrewmcodes](https://github.com/andrewmcodes))
 
 ## [v3.0.0.rc4](https://github.com/andrewmcodes/rubocop-linter-action/tree/v3.0.0.rc4) (2020-01-16)
 
@@ -56,6 +65,7 @@
 - Add documentation around what will happen if the action is triggered by a pr from a forked repo [\#100](https://github.com/andrewmcodes/rubocop-linter-action/pull/100) ([andrewmcodes](https://github.com/andrewmcodes))
 - issue 96 exploration [\#99](https://github.com/andrewmcodes/rubocop-linter-action/pull/99) ([andrewmcodes](https://github.com/andrewmcodes))
 - tweak the way we read the config file [\#98](https://github.com/andrewmcodes/rubocop-linter-action/pull/98) ([andrewmcodes](https://github.com/andrewmcodes))
+- Enhanced dependency configuration and resolution [\#95](https://github.com/andrewmcodes/rubocop-linter-action/pull/95) ([erichmachado](https://github.com/erichmachado))
 - docs: add erichmachado as a contributor [\#94](https://github.com/andrewmcodes/rubocop-linter-action/pull/94) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - ReportAdapter\#column\_check correctly parses the last\_column value [\#92](https://github.com/andrewmcodes/rubocop-linter-action/pull/92) ([erichmachado](https://github.com/erichmachado))
 
@@ -65,25 +75,16 @@
 
 **Merged pull requests:**
 
-- Enhanced dependency configuration and resolution [\#95](https://github.com/andrewmcodes/rubocop-linter-action/pull/95) ([erichmachado](https://github.com/erichmachado))
 - v3.0.0.rc2 release [\#89](https://github.com/andrewmcodes/rubocop-linter-action/pull/89) ([andrewmcodes](https://github.com/andrewmcodes))
 - refactor and update docs [\#88](https://github.com/andrewmcodes/rubocop-linter-action/pull/88) ([andrewmcodes](https://github.com/andrewmcodes))
 - Update build action [\#86](https://github.com/andrewmcodes/rubocop-linter-action/pull/86) ([andrewmcodes](https://github.com/andrewmcodes))
-- Work around 50-annotation limit by making multiple update calls [\#85](https://github.com/andrewmcodes/rubocop-linter-action/pull/85) ([reidab](https://github.com/reidab))
-- Ensure start\_column comes before end\_column [\#84](https://github.com/andrewmcodes/rubocop-linter-action/pull/84) ([reidab](https://github.com/reidab))
-- Create initial GitHub check before running rubocop [\#83](https://github.com/andrewmcodes/rubocop-linter-action/pull/83) ([reidab](https://github.com/reidab))
 
 ## [v3.0.0.rc1](https://github.com/andrewmcodes/rubocop-linter-action/tree/v3.0.0.rc1) (2019-12-19)
 
 [Full Changelog](https://github.com/andrewmcodes/rubocop-linter-action/compare/v2.0.1...v3.0.0.rc1)
 
-**Implemented enhancements:**
-
-- Configuration File [\#75](https://github.com/andrewmcodes/rubocop-linter-action/pull/75) ([andrewmcodes](https://github.com/andrewmcodes))
-
 **Merged pull requests:**
 
-- version 3.0.0.rc1 release [\#82](https://github.com/andrewmcodes/rubocop-linter-action/pull/82) ([andrewmcodes](https://github.com/andrewmcodes))
 - docs: add excid3 as a contributor [\#81](https://github.com/andrewmcodes/rubocop-linter-action/pull/81) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 
 ## [v2.0.1](https://github.com/andrewmcodes/rubocop-linter-action/tree/v2.0.1) (2019-12-18)
@@ -97,7 +98,6 @@
 
 **Closed issues:**
 
-- Lint changed files only instead [\#70](https://github.com/andrewmcodes/rubocop-linter-action/issues/70)
 - This action seems to not work for Pull Requests [\#68](https://github.com/andrewmcodes/rubocop-linter-action/issues/68)
 - \[request\] ability to set working directory [\#64](https://github.com/andrewmcodes/rubocop-linter-action/issues/64)
 
