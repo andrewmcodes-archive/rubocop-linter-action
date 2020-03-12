@@ -6,6 +6,7 @@
 
 **Implemented enhancements:**
 
+- Add Force Exclusion configuration option [\#126](https://github.com/andrewmcodes/rubocop-linter-action/issues/126)
 - chore: dependency updates [\#128](https://github.com/andrewmcodes/rubocop-linter-action/pull/128) ([andrewmcodes](https://github.com/andrewmcodes))
 
 **Fixed bugs:**
@@ -21,6 +22,8 @@
 
 **Merged pull requests:**
 
+- Release v3.1.0 [\#130](https://github.com/andrewmcodes/rubocop-linter-action/pull/130) ([andrewmcodes](https://github.com/andrewmcodes))
+- docs: add es50678 as a contributor [\#129](https://github.com/andrewmcodes/rubocop-linter-action/pull/129) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - Add Force Exclusion configuration option [\#127](https://github.com/andrewmcodes/rubocop-linter-action/pull/127) ([es50678](https://github.com/es50678))
 
 ## [v3.0.0](https://github.com/andrewmcodes/rubocop-linter-action/tree/v3.0.0) (2020-01-24)
