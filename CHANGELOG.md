@@ -19,6 +19,10 @@
 - Unclear documentation around action secrets [\#125](https://github.com/andrewmcodes/rubocop-linter-action/issues/125)
 - Are we able to run ruby 2.6.5 with version 3? [\#124](https://github.com/andrewmcodes/rubocop-linter-action/issues/124)
 
+**Merged pull requests:**
+
+- Add Force Exclusion configuration option [\#127](https://github.com/andrewmcodes/rubocop-linter-action/pull/127) ([es50678](https://github.com/es50678))
+
 ## [v3.0.0](https://github.com/andrewmcodes/rubocop-linter-action/tree/v3.0.0) (2020-01-24)
 
 [Full Changelog](https://github.com/andrewmcodes/rubocop-linter-action/compare/v3.0.0.rc4...v3.0.0)
@@ -190,7 +194,6 @@
 - Add cop name to report messages [\#49](https://github.com/andrewmcodes/rubocop-linter-action/pull/49) ([bbugh](https://github.com/bbugh))
 - Use 'notice' annotation style for refactor + convention offenses [\#46](https://github.com/andrewmcodes/rubocop-linter-action/pull/46) ([reidab](https://github.com/reidab))
 - add changelog generator [\#44](https://github.com/andrewmcodes/rubocop-linter-action/pull/44) ([andrewmcodes](https://github.com/andrewmcodes))
-- docs: add amerritt14 as a contributor [\#36](https://github.com/andrewmcodes/rubocop-linter-action/pull/36) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 
 ## [v1.0.3](https://github.com/andrewmcodes/rubocop-linter-action/tree/v1.0.3) (2019-11-07)
 
@@ -213,6 +216,7 @@
 **Merged pull requests:**
 
 - v1.0.2 version bump [\#37](https://github.com/andrewmcodes/rubocop-linter-action/pull/37) ([andrewmcodes](https://github.com/andrewmcodes))
+- docs: add amerritt14 as a contributor [\#36](https://github.com/andrewmcodes/rubocop-linter-action/pull/36) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - Fix typo, conslusion to conclusion [\#35](https://github.com/andrewmcodes/rubocop-linter-action/pull/35) ([amerritt14](https://github.com/amerritt14))
 - add start and end column support [\#34](https://github.com/andrewmcodes/rubocop-linter-action/pull/34) ([andrewmcodes](https://github.com/andrewmcodes))
 - update readme [\#33](https://github.com/andrewmcodes/rubocop-linter-action/pull/33) ([andrewmcodes](https://github.com/andrewmcodes))
