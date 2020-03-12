@@ -57,7 +57,6 @@
 **Merged pull requests:**
 
 - update codecov integration [\#115](https://github.com/andrewmcodes/rubocop-linter-action/pull/115) ([andrewmcodes](https://github.com/andrewmcodes))
-- change example workflow to use actions/checkout@v1 [\#107](https://github.com/andrewmcodes/rubocop-linter-action/pull/107) ([andrewmcodes](https://github.com/andrewmcodes))
 - docs: add seerahulsingh as a contributor [\#104](https://github.com/andrewmcodes/rubocop-linter-action/pull/104) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - Work around 50-annotation limit by making multiple update calls [\#85](https://github.com/andrewmcodes/rubocop-linter-action/pull/85) ([reidab](https://github.com/reidab))
 - Ensure start\_column comes before end\_column [\#84](https://github.com/andrewmcodes/rubocop-linter-action/pull/84) ([reidab](https://github.com/reidab))
@@ -70,6 +69,7 @@
 
 **Merged pull requests:**
 
+- change example workflow to use actions/checkout@v1 [\#107](https://github.com/andrewmcodes/rubocop-linter-action/pull/107) ([andrewmcodes](https://github.com/andrewmcodes))
 - version 3.0.0.rc4 release [\#103](https://github.com/andrewmcodes/rubocop-linter-action/pull/103) ([andrewmcodes](https://github.com/andrewmcodes))
 - upgrade to ruby 2.7 [\#102](https://github.com/andrewmcodes/rubocop-linter-action/pull/102) ([andrewmcodes](https://github.com/andrewmcodes))
 - try to prevent infinite runs [\#101](https://github.com/andrewmcodes/rubocop-linter-action/pull/101) ([andrewmcodes](https://github.com/andrewmcodes))
