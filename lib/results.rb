@@ -1,10 +1,16 @@
 # frozen_string_literal: true
 
+require "open3"
+
 class Results
   attr_accessor :output, :status_code
+
   def initialize(command)
-    @output = `#{command}`
-    @status_code = $?.to_i # rubocop:disable Style/SpecialGlobalVars
+    Open3.popen2(command) do |stdin, stdout, thread|
+      stdin.close
+      @output = stdout.read
+      @status_code = thread.value.exitstatus
+    end
   end
 
   def build
