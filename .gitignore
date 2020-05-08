@@ -2,3 +2,5 @@
 /.vscode/
 .python-version
 /coverage/
+/.bundle/
+/vendor/
