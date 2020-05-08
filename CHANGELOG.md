@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- Allow passing `configuration.base\_branch` [\#136](https://github.com/andrewmcodes/rubocop-linter-action/pull/136) ([arich](https://github.com/arich))
 - Ignore stderr when running the command [\#132](https://github.com/andrewmcodes/rubocop-linter-action/pull/132) ([michaelherold](https://github.com/michaelherold))
 
 ## [v3.1.0](https://github.com/andrewmcodes/rubocop-linter-action/tree/v3.1.0) (2020-03-12)
@@ -79,8 +80,6 @@
 **Merged pull requests:**
 
 - version 3.0.0.rc4 release [\#103](https://github.com/andrewmcodes/rubocop-linter-action/pull/103) ([andrewmcodes](https://github.com/andrewmcodes))
-- upgrade to ruby 2.7 [\#102](https://github.com/andrewmcodes/rubocop-linter-action/pull/102) ([andrewmcodes](https://github.com/andrewmcodes))
-- try to prevent infinite runs [\#101](https://github.com/andrewmcodes/rubocop-linter-action/pull/101) ([andrewmcodes](https://github.com/andrewmcodes))
 
 ## [v3.0.0.rc3](https://github.com/andrewmcodes/rubocop-linter-action/tree/v3.0.0.rc3) (2020-01-11)
 
@@ -96,6 +95,7 @@
 
 **Merged pull requests:**
 
+- try to prevent infinite runs [\#101](https://github.com/andrewmcodes/rubocop-linter-action/pull/101) ([andrewmcodes](https://github.com/andrewmcodes))
 - Add documentation around what will happen if the action is triggered by a pr from a forked repo [\#100](https://github.com/andrewmcodes/rubocop-linter-action/pull/100) ([andrewmcodes](https://github.com/andrewmcodes))
 - issue 96 exploration [\#99](https://github.com/andrewmcodes/rubocop-linter-action/pull/99) ([andrewmcodes](https://github.com/andrewmcodes))
 - tweak the way we read the config file [\#98](https://github.com/andrewmcodes/rubocop-linter-action/pull/98) ([andrewmcodes](https://github.com/andrewmcodes))
@@ -109,6 +109,7 @@
 
 **Merged pull requests:**
 
+- upgrade to ruby 2.7 [\#102](https://github.com/andrewmcodes/rubocop-linter-action/pull/102) ([andrewmcodes](https://github.com/andrewmcodes))
 - v3.0.0.rc2 release [\#89](https://github.com/andrewmcodes/rubocop-linter-action/pull/89) ([andrewmcodes](https://github.com/andrewmcodes))
 - refactor and update docs [\#88](https://github.com/andrewmcodes/rubocop-linter-action/pull/88) ([andrewmcodes](https://github.com/andrewmcodes))
 - Update build action [\#86](https://github.com/andrewmcodes/rubocop-linter-action/pull/86) ([andrewmcodes](https://github.com/andrewmcodes))
