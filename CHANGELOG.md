@@ -8,8 +8,13 @@
 
 - remove shell\_lint action [\#141](https://github.com/andrewmcodes/rubocop-linter-action/pull/141) ([andrewmcodes](https://github.com/andrewmcodes))
 
+**Closed issues:**
+
+- cannot load such file -- rubocop-rails [\#137](https://github.com/andrewmcodes/rubocop-linter-action/issues/137)
+
 **Merged pull requests:**
 
+- Create FUNDING.yml [\#142](https://github.com/andrewmcodes/rubocop-linter-action/pull/142) ([andrewmcodes](https://github.com/andrewmcodes))
 - Allow passing `configuration.base\_branch` [\#136](https://github.com/andrewmcodes/rubocop-linter-action/pull/136) ([arich](https://github.com/arich))
 - Ignore stderr when running the command [\#132](https://github.com/andrewmcodes/rubocop-linter-action/pull/132) ([michaelherold](https://github.com/michaelherold))
 
@@ -255,6 +260,7 @@
 - v1.0.1 version bump [\#31](https://github.com/andrewmcodes/rubocop-linter-action/pull/31) ([andrewmcodes](https://github.com/andrewmcodes))
 - Update dockerfile and add build test action [\#30](https://github.com/andrewmcodes/rubocop-linter-action/pull/30) ([andrewmcodes](https://github.com/andrewmcodes))
 - Do not send in an empty array of annotations on success [\#29](https://github.com/andrewmcodes/rubocop-linter-action/pull/29) ([andrewmcodes](https://github.com/andrewmcodes))
+- docs: add mcgregordan as a contributor [\#25](https://github.com/andrewmcodes/rubocop-linter-action/pull/25) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 
 ## [v1.0.0](https://github.com/andrewmcodes/rubocop-linter-action/tree/v1.0.0) (2019-10-29)
 
@@ -277,7 +283,6 @@
 **Merged pull requests:**
 
 - Release v1.0.0 [\#26](https://github.com/andrewmcodes/rubocop-linter-action/pull/26) ([andrewmcodes](https://github.com/andrewmcodes))
-- docs: add mcgregordan as a contributor [\#25](https://github.com/andrewmcodes/rubocop-linter-action/pull/25) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - docs: add andrewmcodes as a contributor [\#24](https://github.com/andrewmcodes/rubocop-linter-action/pull/24) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - docs: add MiguelSavignano as a contributor [\#23](https://github.com/andrewmcodes/rubocop-linter-action/pull/23) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - update docs [\#22](https://github.com/andrewmcodes/rubocop-linter-action/pull/22) ([andrewmcodes](https://github.com/andrewmcodes))
