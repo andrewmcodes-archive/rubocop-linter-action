@@ -17,6 +17,7 @@
 
 **Merged pull requests:**
 
+- Bump activesupport from 6.0.3 to 6.0.3.2 [\#155](https://github.com/andrewmcodes/rubocop-linter-action/pull/155) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Update faq.md [\#152](https://github.com/andrewmcodes/rubocop-linter-action/pull/152) ([kmcclellan](https://github.com/kmcclellan))
 - Find modified files with respect to base commit of branch [\#139](https://github.com/andrewmcodes/rubocop-linter-action/pull/139) ([hasghari](https://github.com/hasghari))
 
