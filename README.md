@@ -47,7 +47,7 @@ The default usage, similar to running `gem install rubocop && rubocop` from your
 
 ```yaml
 - name: RuboCop Linter Action
-  uses: andrewmcodes/rubocop-linter-action@v3.2.0
+  uses: andrewmcodes/rubocop-linter-action@v3.3.0
   env:
     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
@@ -245,7 +245,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: RuboCop Linter
-        uses: andrewmcodes/rubocop-linter-action@v3.2.0
+        uses: andrewmcodes/rubocop-linter-action@v3.3.0
         with:
           action_config_path: ".github/config/rubocop_linter_action.yml" # Note: this is the default location
         env:
@@ -303,7 +303,7 @@ Stop the workflow execution if the linter returns some failures.
 
 ```yaml
 - name: RuboCop Linter Action
-  uses: andrewmcodes/rubocop-linter-action@v3.2.0
+  uses: andrewmcodes/rubocop-linter-action@v3.3.0
   with:
     exit_on_failure: true
   env:
