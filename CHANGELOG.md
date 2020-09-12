@@ -4,12 +4,20 @@
 
 [Full Changelog](https://github.com/andrewmcodes/rubocop-linter-action/compare/v3.2.0...HEAD)
 
+**Implemented enhancements:**
+
+- Meta updates [\#150](https://github.com/andrewmcodes/rubocop-linter-action/issues/150)
+- refactor: remove old docs and update the ones in the readme [\#160](https://github.com/andrewmcodes/rubocop-linter-action/pull/160) ([andrewmcodes](https://github.com/andrewmcodes))
+
 **Fixed bugs:**
 
 - No such file or directory - rubocop \(Errno::ENOENT\) [\#138](https://github.com/andrewmcodes/rubocop-linter-action/issues/138)
+- check\_scope modified has a git failure but still runs [\#135](https://github.com/andrewmcodes/rubocop-linter-action/issues/135)
 
 **Closed issues:**
 
+- Put docs back in README or wiki [\#157](https://github.com/andrewmcodes/rubocop-linter-action/issues/157)
+- The project name casing is incorrect. [\#154](https://github.com/andrewmcodes/rubocop-linter-action/issues/154)
 - Allow the github action check to fail [\#149](https://github.com/andrewmcodes/rubocop-linter-action/issues/149)
 - Use Rubocop version from Gemfile.lock [\#147](https://github.com/andrewmcodes/rubocop-linter-action/issues/147)
 - Configurable Rubocop Version [\#145](https://github.com/andrewmcodes/rubocop-linter-action/issues/145)
@@ -17,8 +25,11 @@
 
 **Merged pull requests:**
 
+- Updating strategy for documentation [\#158](https://github.com/andrewmcodes/rubocop-linter-action/pull/158) ([johnfelixespinosa](https://github.com/johnfelixespinosa))
 - Bump activesupport from 6.0.3 to 6.0.3.2 [\#155](https://github.com/andrewmcodes/rubocop-linter-action/pull/155) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Exit code if linter returns some failures [\#153](https://github.com/andrewmcodes/rubocop-linter-action/pull/153) ([MiguelSavignano](https://github.com/MiguelSavignano))
 - Update faq.md [\#152](https://github.com/andrewmcodes/rubocop-linter-action/pull/152) ([kmcclellan](https://github.com/kmcclellan))
+- Create FUNDING.yml [\#142](https://github.com/andrewmcodes/rubocop-linter-action/pull/142) ([andrewmcodes](https://github.com/andrewmcodes))
 - Find modified files with respect to base commit of branch [\#139](https://github.com/andrewmcodes/rubocop-linter-action/pull/139) ([hasghari](https://github.com/hasghari))
 
 ## [v3.2.0](https://github.com/andrewmcodes/rubocop-linter-action/tree/v3.2.0) (2020-05-08)
@@ -39,7 +50,6 @@
 
 **Merged pull requests:**
 
-- Create FUNDING.yml [\#142](https://github.com/andrewmcodes/rubocop-linter-action/pull/142) ([andrewmcodes](https://github.com/andrewmcodes))
 - Allow passing `configuration.base\_branch` [\#136](https://github.com/andrewmcodes/rubocop-linter-action/pull/136) ([arich](https://github.com/arich))
 - Ignore stderr when running the command [\#132](https://github.com/andrewmcodes/rubocop-linter-action/pull/132) ([michaelherold](https://github.com/michaelherold))
 
@@ -251,7 +261,6 @@
 
 **Merged pull requests:**
 
-- v1.0.3 version bump [\#42](https://github.com/andrewmcodes/rubocop-linter-action/pull/42) ([andrewmcodes](https://github.com/andrewmcodes))
 - only send GitHub offenses instead of entire json output [\#41](https://github.com/andrewmcodes/rubocop-linter-action/pull/41) ([andrewmcodes](https://github.com/andrewmcodes))
 - Update issue templates [\#39](https://github.com/andrewmcodes/rubocop-linter-action/pull/39) ([andrewmcodes](https://github.com/andrewmcodes))
 
@@ -261,6 +270,7 @@
 
 **Merged pull requests:**
 
+- v1.0.3 version bump [\#42](https://github.com/andrewmcodes/rubocop-linter-action/pull/42) ([andrewmcodes](https://github.com/andrewmcodes))
 - v1.0.2 version bump [\#37](https://github.com/andrewmcodes/rubocop-linter-action/pull/37) ([andrewmcodes](https://github.com/andrewmcodes))
 - docs: add amerritt14 as a contributor [\#36](https://github.com/andrewmcodes/rubocop-linter-action/pull/36) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - Fix typo, conslusion to conclusion [\#35](https://github.com/andrewmcodes/rubocop-linter-action/pull/35) ([amerritt14](https://github.com/amerritt14))
