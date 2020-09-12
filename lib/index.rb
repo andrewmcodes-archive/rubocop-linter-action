@@ -60,9 +60,9 @@ class RubocopLinterAction
   end
 
   def check_name
-    config.fetch("check_name", "Rubocop Action")
+    config.fetch("check_name", "RuboCop Action")
   end
 end
 
 success = RubocopLinterAction.run
-return exit 1 if [true, "true"].include?(ENV["INPUT_EXIT_ON_FAILURE"]) && !success
+exit 1 if [true, "true"].include?(ENV["INPUT_EXIT_ON_FAILURE"]) && !success
