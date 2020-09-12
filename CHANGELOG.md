@@ -6,6 +6,7 @@
 
 **Implemented enhancements:**
 
+- Only run Rubocop against the diff  [\#159](https://github.com/andrewmcodes/rubocop-linter-action/issues/159)
 - Meta updates [\#150](https://github.com/andrewmcodes/rubocop-linter-action/issues/150)
 - refactor: remove old docs and update the ones in the readme [\#160](https://github.com/andrewmcodes/rubocop-linter-action/pull/160) ([andrewmcodes](https://github.com/andrewmcodes))
 
@@ -25,11 +26,11 @@
 
 **Merged pull requests:**
 
+- Tweak exit strategy [\#161](https://github.com/andrewmcodes/rubocop-linter-action/pull/161) ([andrewmcodes](https://github.com/andrewmcodes))
 - Updating strategy for documentation [\#158](https://github.com/andrewmcodes/rubocop-linter-action/pull/158) ([johnfelixespinosa](https://github.com/johnfelixespinosa))
 - Bump activesupport from 6.0.3 to 6.0.3.2 [\#155](https://github.com/andrewmcodes/rubocop-linter-action/pull/155) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Exit code if linter returns some failures [\#153](https://github.com/andrewmcodes/rubocop-linter-action/pull/153) ([MiguelSavignano](https://github.com/MiguelSavignano))
 - Update faq.md [\#152](https://github.com/andrewmcodes/rubocop-linter-action/pull/152) ([kmcclellan](https://github.com/kmcclellan))
-- Create FUNDING.yml [\#142](https://github.com/andrewmcodes/rubocop-linter-action/pull/142) ([andrewmcodes](https://github.com/andrewmcodes))
 - Find modified files with respect to base commit of branch [\#139](https://github.com/andrewmcodes/rubocop-linter-action/pull/139) ([hasghari](https://github.com/hasghari))
 
 ## [v3.2.0](https://github.com/andrewmcodes/rubocop-linter-action/tree/v3.2.0) (2020-05-08)
@@ -50,6 +51,7 @@
 
 **Merged pull requests:**
 
+- Create FUNDING.yml [\#142](https://github.com/andrewmcodes/rubocop-linter-action/pull/142) ([andrewmcodes](https://github.com/andrewmcodes))
 - Allow passing `configuration.base\_branch` [\#136](https://github.com/andrewmcodes/rubocop-linter-action/pull/136) ([arich](https://github.com/arich))
 - Ignore stderr when running the command [\#132](https://github.com/andrewmcodes/rubocop-linter-action/pull/132) ([michaelherold](https://github.com/michaelherold))
 
@@ -261,6 +263,7 @@
 
 **Merged pull requests:**
 
+- v1.0.3 version bump [\#42](https://github.com/andrewmcodes/rubocop-linter-action/pull/42) ([andrewmcodes](https://github.com/andrewmcodes))
 - only send GitHub offenses instead of entire json output [\#41](https://github.com/andrewmcodes/rubocop-linter-action/pull/41) ([andrewmcodes](https://github.com/andrewmcodes))
 - Update issue templates [\#39](https://github.com/andrewmcodes/rubocop-linter-action/pull/39) ([andrewmcodes](https://github.com/andrewmcodes))
 
@@ -270,7 +273,6 @@
 
 **Merged pull requests:**
 
-- v1.0.3 version bump [\#42](https://github.com/andrewmcodes/rubocop-linter-action/pull/42) ([andrewmcodes](https://github.com/andrewmcodes))
 - v1.0.2 version bump [\#37](https://github.com/andrewmcodes/rubocop-linter-action/pull/37) ([andrewmcodes](https://github.com/andrewmcodes))
 - docs: add amerritt14 as a contributor [\#36](https://github.com/andrewmcodes/rubocop-linter-action/pull/36) ([allcontributors[bot]](https://github.com/apps/allcontributors))
 - Fix typo, conslusion to conclusion [\#35](https://github.com/andrewmcodes/rubocop-linter-action/pull/35) ([amerritt14](https://github.com/amerritt14))
